@@ -1,0 +1,21 @@
+*************************************************************************************************
+* Material encontrado en Internet para uso exclusivamente educativo y no comercial		*
+* 												*
+*************************************************************************************************
+*			  URL's de los documentos del Repositorio				*
+*************************************************************************************************
+
+http://www3.software.ibm.com/ibmdl/pub/software/rational/web/uml/Sridhar_SDP-EMF-UML.pdf
+
+http://www.bptrends.com/publicationfiles/05-04%20COL%20IBM%20Manifesto%20-%20Frankel%20-3.pdf
+
+http://www3.software.ibm.com/ibmdl/pub/software/rational/web/uml/Sridhar_SDP-EMF-UML.pdf
+
+http://www.ibm.com/developerworks/rational/library/apr05/brown/
+
+http://www.eclipse.org/whitepapers/eclipse-overview.pdf
+
+
+*************************************************************************************************
+* by:arivadeneira****************************************************************by:arivadeneira*
+*************************************************************************************************
