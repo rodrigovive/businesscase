@@ -51,7 +51,7 @@
                 <task id="7" name="Documentos de apoyo a los temas" meeting="false" start="2009-02-02" duration="10" complete="0" priority="1" expand="true"/>
                 <task id="9" name="Referencias" meeting="false" start="2009-02-02" duration="10" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="6" name="Revisión del Marco teórico (semana 2)" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="false">
+            <task id="6" name="Revisión del Marco teórico (semana 2)" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="true">
                 <task id="12" name="Petición de los Interesados (Requerimientos)" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="true"/>
                 <task id="312" name="M6 - Elaborar encuestas experto en Logística y experto en Modelado Matemático." color="#8cb6ce" meeting="false" start="2009-02-16" duration="2" complete="0" priority="1" expand="true"/>
                 <task id="8" name="Glosario" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="true"/>
@@ -106,7 +106,7 @@
                 <task id="321" name="M16 - Definir la configuración de gestión de los procedimientos a tener encuenta." color="#8cb6ce" meeting="false" start="2009-03-17" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="162" name="Valoración del Estado (Gestión del Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="32" name="Entrega de Anteproyecto (semana 8)" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false">
+            <task id="32" name="Entrega de Anteproyecto (semana 8)" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true">
                 <task id="160" name="Requerimientos No Funcionales (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="322" name="M17 - Actualizar correcciones cerrar documentos " color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="33" name="Firma de Carta asesor metodologico" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
@@ -178,7 +178,7 @@
                 <task id="306" name="M28 - Definir  módulos de inicio de desarrollo" color="#8cb6ce" meeting="false" start="2009-05-18" duration="1" complete="0" priority="1" expand="true"/>
             </task>
         </task>
-        <task id="65" name="1.  Cronograma de Vacaciones Seminario" color="#8cb6ce" meeting="false" start="2009-05-25" duration="50" complete="0" priority="1" expand="false">
+        <task id="65" name="1.  Cronograma de Vacaciones Seminario" color="#8cb6ce" meeting="false" start="2009-05-25" duration="50" complete="0" priority="1" expand="true">
             <task id="181" name="Ajustes de Diseño" color="#8cb6ce" meeting="false" start="2009-05-25" duration="10" complete="0" priority="1" expand="true">
                 <task id="182" name="Documento de Arquitectura (100%)" color="#8cb6ce" meeting="false" start="2009-05-25" duration="10" complete="0" priority="1" expand="true"/>
             </task>
