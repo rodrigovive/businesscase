@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2007-09-10" view-index="0" gantt-divider-location="795" resource-divider-location="-1" version="2.0">
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2009-10-27" view-index="0" gantt-divider-location="615" resource-divider-location="301" version="2.0">
     <description/>
-    <view zooming-state="default:0" id="gantt-chart"/>
+    <view zooming-state="default:2" id="gantt-chart"/>
     <view id="resource-table">
         <field id="0" name="Nombre" width="55" order="0"/>
         <field id="1" name="Función" width="44" order="1"/>
@@ -38,85 +38,105 @@
             </task>
             <task id="3" name="Presentación Proyecto (semana 1)" meeting="false" start="2009-02-02" duration="10" complete="0" priority="1" expand="true">
                 <depend id="6" type="2" difference="0" hardness="Strong"/>
+                <task id="307" name="M1- Asignacion temas Marco Teorico" color="#8cb6ce" meeting="false" start="2009-02-02" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="4" name="Tabla de Contenido de Marco Teórico" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="309" name="M2 - Definir Significado Metamodelos y XMI " color="#8cb6ce" meeting="false" start="2009-02-02" duration="4" complete="0" priority="1" expand="true"/>
+                <task id="310" name="M3 - Aplicar Conceptos de Metamodelos y XMI a MDA " color="#8cb6ce" meeting="false" start="2009-02-02" duration="6" complete="0" priority="1" expand="true"/>
                 <task id="150" name="Asignación e Identificaciòn de Perfiles de Interesados" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="5" name="Definición de Temas" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="311" name="M4 - Conceptos de Modelado Matematico Logica de Negocio" color="#8cb6ce" meeting="false" start="2009-02-02" duration="3" complete="0" priority="1" expand="true"/>
+                <task id="5" name="Definición de Temas" meeting="false" start="2009-02-02" duration="2" complete="0" priority="1" expand="true">
+                    <depend id="308" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="308" name="M5 - Modelado de Logistica y Distibucion de Productos" color="#8cb6ce" meeting="false" start="2009-02-04" duration="3" complete="0" priority="1" expand="true"/>
                 <task id="7" name="Documentos de apoyo a los temas" meeting="false" start="2009-02-02" duration="10" complete="0" priority="1" expand="true"/>
                 <task id="9" name="Referencias" meeting="false" start="2009-02-02" duration="10" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="6" name="Revisión del Marco teórico (semana 2)" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="true">
+            <task id="6" name="Revisión del Marco teórico (semana 2)" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="false">
                 <task id="12" name="Petición de los Interesados (Requerimientos)" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="true"/>
+                <task id="312" name="M6 - Elaborar encuestas experto en Logística y experto en Modelado Matemático." color="#8cb6ce" meeting="false" start="2009-02-16" duration="2" complete="0" priority="1" expand="true"/>
                 <task id="8" name="Glosario" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="313" name="M7 - Extracción términos para glosario de lo documentado en Anteproyecto." color="#8cb6ce" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="true"/>
                 <task id="10" name="Versión preliminar de marco teórico" meeting="false" start="2009-02-16" duration="10" complete="0" priority="1" expand="true"/>
             </task>
             <task id="11" name="Revisión (semana 3)" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="true">
                 <task id="13" name="Plan de Gestión de Requerimientos (Requerimientos)" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="314" name="M8 - Definir Alcance de herramienta CASE" color="#8cb6ce" meeting="false" start="2009-02-16" duration="2" complete="0" priority="1" expand="true"/>
                 <task id="14" name="Glosario" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="151" name="Visión (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="315" name="M9 - Conceptos, Componentes, Características de herramienta CASE" color="#8cb6ce" meeting="false" start="2009-02-16" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="159" name="Valoración del Estado (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-02-16" duration="1" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="15" name="Revisión (semana 4)" meeting="false" start="2009-02-23" duration="30" complete="0" priority="1" expand="false">
+            <task id="15" name="Revisión (semana 4)" meeting="false" start="2009-02-23" duration="30" complete="0" priority="1" expand="true">
                 <task id="16" name="Problema" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="316" name="M10 - Identificar brecha entre Logística del negocio y Modelado Matemático." color="#8cb6ce" meeting="false" start="2009-02-23" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="317" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="17" name="Objetivos" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="317" name="M11 - Linear objetivos teniendo en cuenta el problema existente." color="#8cb6ce" meeting="false" start="2009-02-26" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="18" name="Propuesta de Solución" meeting="false" start="2009-02-23" duration="25" complete="0" priority="1" expand="true">
                     <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    <depend id="26" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="19" name="Revisión de Objetivos, Propuesta de Solución" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="152" name="Lista de Riesgos (Análisis y Diseño)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="318" name="M12 - Identificar posibles riesgos durante la ejecución del proyecto." color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="153" name="Plan de Gestión de Riesgos (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="137" name="Revisando Documentación para Paz y Salvo en Facultad" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="20" name="Revisión (semana 5)" meeting="false" start="2007-09-10" duration="390" complete="0" priority="1" expand="false">
+            <task id="20" name="Revisión (semana 5)" meeting="false" start="2007-09-10" duration="410" complete="0" priority="1" expand="true">
                 <task id="21" name="Metodologia" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="163" name="Plan de Desarrollo de Software (Gestión de Cambios y Configuración)" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="319" name="M13 - Definición Metodología OpenUp" color="#8cb6ce" meeting="false" start="2009-03-30" duration="1" complete="0" priority="1" expand="true"/>
+                <task id="163" name="Plan de Desarrollo de Software (Gestión de Cambios y Configuración)" color="#8cb6ce" meeting="false" start="2009-03-30" duration="3" complete="0" priority="1" expand="true"/>
+                <task id="320" name="M14 - Controlar, Cuantificar y definir Actividades durante la ejecución del proyecto." color="#8cb6ce" meeting="false" start="2009-03-30" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="22" name="Recursos" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="24" name="Cronograma" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="291" name="Nueva tarea_291" color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
+                <task id="291" name="M15 - Complementar Cronograma  ya orientado al proyecto." color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="23" name="Prospectiva" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="25" name="Glosario" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="26" name="Corrección de Objetivos" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="26" name="Corrección de Objetivos" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="154" name="Plan de Resolución de Problemas (Gestión del Proyecto)" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="27" name="Revisión (semana 6)" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="false">
+            <task id="27" name="Revisión (semana 6)" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="true">
                 <task id="28" name="Revisión de Metodologia y Cronograma" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="29" name="Finalización Marco Teórico (100%)" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="30" name="Revisión (semana 7)" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="false">
+            <task id="30" name="Revisión (semana 7)" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="true">
                 <task id="31" name="Correccion Metodologia y Cronograma" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="161" name="Plan de Gestión de Configuración (Gestión de Cambios y Configuración)" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="321" name="M16 - Definir la configuración de gestión de los procedimientos a tener encuenta." color="#8cb6ce" meeting="false" start="2009-03-17" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="162" name="Valoración del Estado (Gestión del Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="true"/>
             </task>
             <task id="32" name="Entrega de Anteproyecto (semana 8)" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false">
                 <task id="160" name="Requerimientos No Funcionales (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="322" name="M17 - Actualizar correcciones cerrar documentos " color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="33" name="Firma de Carta asesor metodologico" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="34" name="Firma de Cara asesor técnico" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="35" name="Entrega a Coordinacion Investigacion" meeting="false" start="2009-03-23" duration="2" complete="0" priority="2" expand="true">
                     <depend id="37" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="36" name="Reunion de Comité de Programa (semana 9)" meeting="false" start="2007-09-10" duration="410" complete="0" priority="1" expand="true">
+            <task id="36" name="Reunion de Comité de Programa (semana 9)" meeting="false" start="2009-03-25" duration="8" complete="0" priority="1" expand="true">
                 <task id="37" name="Revisión de cada proyecto (Docentes)" meeting="false" start="2009-03-25" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="292" name="Diseño de Arquitectura Base de la Solución **" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="292" name="M18 - Identificación de Casos de Uso y captura de requerimientos " color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="164" name="Inicio Especificación de Requerimientos (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="38" name="Retroalimentación de proyectos (Docentes)" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="299" name="Correccion de Retroalimentación **" color="#8cb6ce" meeting="false" start="2009-03-31" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="39" name="Revisión de Documentos por parte de otros asesores (Docentes)" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true">
                     <depend id="42" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="298" name="Nueva tarea_298" color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="41" name="Aceptación de Correcciones (semana 10)" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true">
+            <task id="41" name="Aceptación de Correcciones (semana 10)" meeting="false" start="2009-03-09" duration="25" complete="0" priority="1" expand="true">
                 <task id="42" name="Firma de Carta asesor metodologico" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="300" name="Manejo ejemplos orientados a MDA***" color="#8cb6ce" meeting="false" start="2009-04-07" duration="3" complete="0" priority="1" expand="true"/>
                 <task id="43" name="Firma de Cara asesor técnico" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="44" name="Entrega a Coordinador Investigación" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="301" name="Visita a instalaciones de contacto de Logística de distribución  ***" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="165" name="Especificación de Requerimientos (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="326" name="M19 - Controlar Requeriminetos, actualizar si los hay " color="#8cb6ce" meeting="false" start="2009-04-06" duration="2" complete="0" priority="1" expand="true"/>
                 <task id="166" name="Inicio Plan Maestro de Pruebas" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="327" name="M20 - Identificar módulos o organizar lista de chequeo para pruebas" color="#8cb6ce" meeting="false" start="2009-03-09" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="177" name="Presentación de Nuevos Proyectos para Seminario 20092 (Candidatos Seminario)" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="45" name="Análisis de RUP (semana 11)" meeting="false" start="2009-04-13" duration="5" complete="0" priority="1" expand="true">
+            <task id="45" name="Análisis de RUP (semana 11)" meeting="false" start="2009-03-16" duration="25" complete="0" priority="1" expand="true">
                 <task id="46" name="Aprobacion de anteproyecto (Comité de Programa)" meeting="false" start="2009-04-13" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="328" name="M21 - Revisión documentos pendientes cerrarlos terminados" color="#8cb6ce" meeting="false" start="2009-03-16" duration="2" complete="0" priority="1" expand="true"/>
                 <task id="167" name="Plan Maestro de Pruebas (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-04-13" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="168" name="Especificación de Requerimientos (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-04-13" duration="5" complete="0" priority="1" expand="true"/>
             </task>
@@ -124,73 +144,89 @@
                 <task id="50" name="Especificación de Requerimientos (Requerimientos)" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="170" name="Plan Maestro de Pruebas (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="133" name="Sustentación a Estudiantes de Semestres Inferiores" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="302" name="Recopilación de información recolectada definir lo que verdaderamente se utilizara**" color="#8cb6ce" meeting="false" start="2009-04-21" duration="2" complete="0" priority="1" expand="true"/>
+                <task id="302" name="M22 - Preparar presentación exponer proyecto" color="#8cb6ce" meeting="false" start="2009-04-20" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="169" name="Valoración del Estado (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="51" name="Análisis de RUP (semana 13)" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="true">
+            <task id="51" name="Análisis de RUP (semana 13)" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="false">
                 <task id="52" name="Revisión de Especificación de Requerimientos (Docentes)" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="55" name="Glosario" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="171" name="Inicio Plan de Aseguramiento de la Calidad (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="303" name="Alistamiento herramientas y hardware optimas para fase de desarrollo***" color="#8cb6ce" meeting="false" start="2009-04-27" duration="3" complete="0" priority="1" expand="true"/>
+                <task id="303" name="M23 - Definición y cuantificación de conceptos y módulos para seguimiento de calidad " color="#8cb6ce" meeting="false" start="2009-04-27" duration="3" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="56" name="Diseño de RUP (semana 14)" meeting="false" start="2009-05-04" duration="5" complete="0" priority="1" expand="true">
-                <task id="57" name="Documento de Arquitectura de Software (Análisis y Diseño) Sujeto a Modificaciones" meeting="false" start="2009-05-04" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="56" name="Diseño de RUP (semana 14)" meeting="false" start="2009-05-04" duration="6" complete="0" priority="1" expand="true">
+                <task id="57" name="Documento de Arquitectura de Software (Análisis y Diseño) Sujeto a Modificaciones" meeting="false" start="2009-05-04" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="329" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="329" name="M24 - Diagrama de componentes de software y hardwar " color="#8cb6ce" meeting="false" start="2009-05-05" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="330" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="330" name="M25 - Definir Diagrama de Navegabilidad Flujo de Procesos" color="#8cb6ce" meeting="false" start="2009-05-08" duration="2" complete="0" priority="1" expand="true"/>
                 <task id="172" name="Plan de Aseguramiento de la Calidad (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-05-04" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="53" name="Entrega de Correcciones Sobre Documentos RUP" meeting="false" start="2009-05-04" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="175" name="Valoración del Estado (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-05-04" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="304" name="Cerrar documentos pendientes***" color="#8cb6ce" meeting="false" start="2009-05-04" duration="2" complete="0" priority="1" expand="true"/>
+                <task id="304" name="M26 - Cerrar documentos pendientes segun Valoracion " color="#8cb6ce" meeting="false" start="2009-05-04" duration="2" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="58" name="Revisión (semana 15)" meeting="false" start="2007-09-10" duration="440" complete="0" priority="1" expand="true">
+            <task id="58" name="Revisión (semana 15)" meeting="false" start="2009-05-07" duration="7" complete="0" priority="1" expand="false">
+                <task id="305" name="M27 - Confrontar cronograma con docuemntos RUP" color="#8cb6ce" meeting="false" start="2009-05-07" duration="7" complete="0" priority="1" expand="true"/>
                 <task id="60" name="Entrega documentos RUP a Coordinación de Investigación" meeting="false" start="2009-05-11" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="140" name="Carta de Aceptación de Asesorado 2009-2 (Candidatos de Seminario)" color="#8cb6ce" meeting="false" start="2009-05-11" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="305" name="Nueva tarea_305" color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="64" name="Revisión (semana 16)" color="#8cb6ce" meeting="false" start="2007-09-10" duration="445" complete="0" priority="1" expand="true">
+            <task id="64" name="Revisión (semana 16)" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="true">
                 <task id="62" name="Lectura de Documentación RUP  por parte de otros asesores" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="179" name="Aprobación Seminario de Proyecto de Grado" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="180" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="306" name="Definir específicamente con asesor por que módulos se iniciara desarrollo***" color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
+                <task id="306" name="M28 - Definir  módulos de inicio de desarrollo" color="#8cb6ce" meeting="false" start="2009-05-18" duration="1" complete="0" priority="1" expand="true"/>
             </task>
         </task>
-        <task id="65" name="1.  Cronograma de Vacaciones Seminario" color="#8cb6ce" meeting="false" start="2007-09-10" duration="495" complete="0" priority="1" expand="true">
+        <task id="65" name="1.  Cronograma de Vacaciones Seminario" color="#8cb6ce" meeting="false" start="2009-05-25" duration="50" complete="0" priority="1" expand="false">
             <task id="181" name="Ajustes de Diseño" color="#8cb6ce" meeting="false" start="2009-05-25" duration="10" complete="0" priority="1" expand="true">
                 <task id="182" name="Documento de Arquitectura (100%)" color="#8cb6ce" meeting="false" start="2009-05-25" duration="10" complete="0" priority="1" expand="true"/>
             </task>
             <task id="143" name="Diseño de Pruebas" color="#8cb6ce" meeting="false" start="2009-06-08" duration="15" complete="0" priority="1" expand="true">
                 <task id="67" name="Plan de Pruebas por Requerimiento" color="#8cb6ce" meeting="false" start="2009-06-08" duration="15" complete="0" priority="1" expand="true"/>
+                <task id="331" name="M29 - División de módulos para pruebas especificas " color="#8cb6ce" meeting="false" start="2009-06-08" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="184" name="Pruebas de Carga / Stress / Concurrencia / Escalamiento" color="#8cb6ce" meeting="false" start="2009-06-08" duration="15" complete="0" priority="1" expand="true"/>
+                <task id="332" name="M30 - Simulación de modelos con atributos evaluar resultados" color="#8cb6ce" meeting="false" start="2009-06-08" duration="3" complete="0" priority="1" expand="true"/>
                 <task id="183" name="Plan de Aceptación del Producto (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-06-08" duration="15" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="89" name="Entrenamiento en herramientas de desarrollo" color="#8cb6ce" meeting="false" start="2007-09-10" duration="485" complete="0" priority="1" expand="true">
+            <task id="89" name="Entrenamiento en herramientas de desarrollo" color="#8cb6ce" meeting="false" start="2009-06-29" duration="15" complete="0" priority="1" expand="true">
                 <task id="144" name="Capacitación en Lenguajes y Herramientas de desarrollo" color="#8cb6ce" meeting="false" start="2009-06-29" duration="15" complete="0" priority="1" expand="true"/>
-                <task id="296" name="Nueva tarea_296" color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
+                <task id="333" name="M31 - Manejo de herramienta RCP" color="#8cb6ce" meeting="false" start="2009-06-29" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="90" name="Construcción de demo básico de acuerdo al tema de trabajo" color="#8cb6ce" meeting="false" start="2009-06-29" duration="15" complete="0" priority="1" expand="true"/>
-                <task id="297" name="Manejo de herramienta RPC" color="#8cb6ce" meeting="false" start="2009-06-29" duration="1" complete="0" priority="1" expand="true"/>
+                <task id="334" name="M31a - Demo modelado Distribución de Productos, interfaz grafica asignación de atributos" color="#8cb6ce" meeting="false" start="2009-07-02" duration="12" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="295" name="Nueva tarea_295" color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
-            <task id="293" name="Nueva tarea_293" color="#8cb6ce" meeting="false" start="2007-09-10" duration="1" complete="0" priority="1" expand="true"/>
-            <task id="68" name="Implantación" color="#8cb6ce" meeting="false" start="2009-07-20" duration="10" complete="0" priority="1" expand="false">
+            <task id="68" name="Implantación" color="#8cb6ce" meeting="false" start="2009-06-03" duration="43" complete="0" priority="1" expand="true">
                 <task id="185" name="Inicio de Desarrollo según Metdología de Desarrollo Seleccionada" color="#8cb6ce" meeting="false" start="2009-07-20" duration="10" complete="0" priority="1" expand="true"/>
+                <task id="335" name="M32 - Definición de inicio de módulos de desarrollo" color="#8cb6ce" meeting="false" start="2009-06-03" duration="1" complete="0" priority="1" expand="true"/>
             </task>
         </task>
-        <task id="61" name="2.  Cronograma de Graduación" color="#8cb6ce" meeting="false" start="2009-01-19" duration="105" complete="0" priority="1" expand="true">
-            <task id="146" name="Revisión de avances por el asesor (semanas 0)" color="#8cb6ce" meeting="false" start="2009-01-19" duration="10" complete="0" priority="1" expand="true">
-                <task id="91" name="Revisión de Diseño de Pruebas y Aceptación del Producto" color="#8cb6ce" meeting="false" start="2009-01-19" duration="10" complete="0" priority="1" expand="true"/>
-                <task id="92" name="7% de Implantación en Desarrollo" color="#8cb6ce" meeting="false" start="2009-01-19" duration="10" complete="0" priority="1" expand="true"/>
+        <task id="61" name="2.  Cronograma de Graduación" color="#8cb6ce" meeting="false" start="2009-01-19" duration="214" complete="0" priority="1" expand="true">
+            <task id="146" name="Revisión de avances por el asesor (semanas 0)" color="#8cb6ce" meeting="false" start="2009-01-19" duration="147" complete="0" priority="1" expand="true">
+                <task id="91" name="Revisión de Diseño de Pruebas y Aceptación del Producto" color="#8cb6ce" meeting="false" start="2009-07-29" duration="10" complete="0" priority="1" expand="true"/>
+                <task id="92" name="7% de Implantación en Desarrollo" color="#8cb6ce" meeting="false" start="2009-07-29" duration="10" complete="0" priority="1" expand="true"/>
+                <task id="336" name="M33 – Upper CASE Especificaciones Definicion del metámodelo utilizando GMF" color="#8cb6ce" meeting="false" start="2009-07-20" duration="8" complete="0" priority="1" expand="true"/>
                 <task id="186" name="Registro de Revisión (Gestión de Proyecto) Asesoria - Estudiante" color="#8cb6ce" meeting="false" start="2009-01-19" duration="10" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="73" name="Revisión de avances por el asesor (semana 1)" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="false">
-                <task id="104" name="Desarrollo al 10%" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="73" name="Revisión de avances por el asesor (semana 1)" color="#8cb6ce" meeting="false" start="2009-02-02" duration="135" complete="0" priority="1" expand="true">
+                <task id="104" name="Desarrollo al 10%" color="#8cb6ce" meeting="false" start="2009-08-03" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="337" name="M34 - Upper CASE Establecer relaciones entre Metamodelos asugnar atributos" color="#8cb6ce" meeting="false" start="2009-08-03" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="103" name="Revisión RUP por otro asesor" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="188" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="338" name="M35 - CAST Validar relaciones entre Metamodelos" color="#8cb6ce" meeting="false" start="2009-08-04" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="189" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="187" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="339" name="M36 - Actualizar documentos Monografía y Pruebas " color="#8cb6ce" meeting="false" start="2009-08-05" duration="3" complete="0" priority="1" expand="true"/>
                 <task id="248" name="Capitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="262" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-02-02" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="74" name="Revisión de avance por el asesor  (semana 2)" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="false">
+            <task id="74" name="Revisión de avance por el asesor  (semana 2)" color="#8cb6ce" meeting="false" start="2009-02-09" duration="136" complete="0" priority="1" expand="true">
                 <task id="105" name="Desarrollo al 20%" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="340" name="M37 - Uper CASE Metamodelos y Relaciones con atributos y restricciones " color="#8cb6ce" meeting="false" start="2009-08-10" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="341" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="344" name="M38 - Upper CASE Clasificacion de resultados por tipos de Identificador" color="#8cb6ce" meeting="false" start="2009-08-17" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="196" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="341" name="M39 - CAST Validar desarrollo de Metamodelos" color="#8cb6ce" meeting="false" start="2009-08-13" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="194" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="192" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="136" name="Verificación de Solicitar Paz y Salva ante la Facultad" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="true"/>
@@ -198,17 +234,29 @@
                 <task id="249" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="264" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-02-09" duration="5" complete="0" priority="1" expand="false"/>
             </task>
-            <task id="75" name="Revisión de avance por el asesor (semana 3)" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="false">
+            <task id="75" name="Revisión de avance por el asesor (semana 3)" color="#8cb6ce" meeting="false" start="2009-02-16" duration="134" complete="0" priority="1" expand="true">
                 <task id="106" name="Desarrollo al 30%" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="342" name="M40 - Interfaz grafica Inicio de modelos" color="#8cb6ce" meeting="false" start="2009-08-17" duration="1" complete="0" priority="1" expand="true"/>
+                <task id="343" name="M41 - Middle CASE Establecer transformación entre Metamodelo y Modelo" color="#8cb6ce" meeting="false" start="2009-08-17" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="345" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="202" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="345" name="M42 – CAST Probar transformaciones" color="#8cb6ce" meeting="false" start="2009-08-20" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="200" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="198" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="251" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="267" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-02-16" duration="5" complete="0" priority="1" expand="false"/>
             </task>
-            <task id="76" name="Revisión de avance por el asesor (semana 4)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="false">
+            <task id="76" name="Revisión de avance por el asesor (semana 4)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="134" complete="0" priority="1" expand="true">
                 <task id="107" name="Desarrollo al 40%" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="346" name="M43 - Middle CASE crear asignación de modelos a iconografia entendibles desde la lógica del negocio" color="#8cb6ce" meeting="false" start="2009-08-24" duration="2" complete="0" priority="1" expand="true">
+                    <depend id="348" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="347" name="M44 - Middle CASE asignar atributos y restricciones al modelo heredadas del Metámoselo" color="#8cb6ce" meeting="false" start="2009-08-25" duration="2" complete="0" priority="1" expand="true">
+                    <depend id="348" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="208" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="348" name="M45 CAST pruebas de asignación y restricciones de modelos relacion con metamodelo" color="#8cb6ce" meeting="false" start="2009-08-27" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="206" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="204" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="209" name="Plan de Compilación de Integración (Implementación)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
@@ -216,50 +264,75 @@
                 <task id="269" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="95" name="Carta de Avances (30% del curso - 40% del Desarrollo)" color="#8cb6ce" meeting="false" start="2009-02-23" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="77" name="Revisión de Avance por el Asesor (semana 5)" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="false">
+            <task id="77" name="Revisión de Avance por el Asesor (semana 5)" color="#8cb6ce" meeting="false" start="2009-03-02" duration="135" complete="0" priority="1" expand="true">
                 <task id="94" name="Desarrollo al 50 %" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="350" name="M46 - Middle CASE tomar información que entrega el modelo" color="#8cb6ce" meeting="false" start="2009-08-31" duration="4" complete="0" priority="1" expand="true">
+                    <depend id="351" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="213" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="351" name="M47 - CAST Certificar validación" color="#8cb6ce" meeting="false" start="2009-09-04" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="211" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="217" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="255" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="271" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="false"/>
             </task>
-            <task id="78" name="Revisión de avance por el asesor (semana 6)" color="#8cb6ce" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="false">
+            <task id="78" name="Revisión de avance por el asesor (semana 6)" color="#8cb6ce" meeting="false" start="2009-03-09" duration="134" complete="0" priority="1" expand="true">
                 <task id="109" name="Desarrollo al 60%" color="#8cb6ce" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="353" name="M48 - Middle CASE Aplicar transformación para entregar Metamodelo Matematico valores a ecuación" color="#8cb6ce" meeting="false" start="2009-09-07" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="352" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="223" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="352" name="M49 - CAST validar transformación en términos de la ecuación " color="#8cb6ce" meeting="false" start="2009-09-10" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="221" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="219" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="257" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="273" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-03-09" duration="5" complete="0" priority="1" expand="false"/>
             </task>
-            <task id="79" name="Revisión de avance por el asesor (semana 7)" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="false">
+            <task id="79" name="Revisión de avance por el asesor (semana 7)" color="#8cb6ce" meeting="false" start="2009-03-16" duration="134" complete="0" priority="1" expand="true">
                 <task id="110" name="Desarrollo al 70%" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="354" name="M50 - Middle CASE Transformación en términos de Metamodelo Matematico la ecuación termina terminada" color="#8cb6ce" meeting="false" start="2009-09-14" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="355" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="229" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="355" name="M51 - CAST confrontar términos de ecuación y obtenidos por la transformación" color="#8cb6ce" meeting="false" start="2009-09-17" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="227" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="225" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="259" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="275" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-03-16" duration="5" complete="0" priority="1" expand="false"/>
             </task>
-            <task id="147" name="Semana ingenieria" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false">
+            <task id="147" name="Semana ingenieria" color="#8cb6ce" meeting="false" start="2009-03-23" duration="134" complete="0" priority="1" expand="true">
                 <task id="148" name="Desarrollo al 80%" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="356" name="M52 - Middle CASE recibir términos de la ecuación Metamodelo Matematico y crear archivo XMI" color="#8cb6ce" meeting="false" start="2009-09-21" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="357" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="235" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="357" name="M53 – CAST certificar etiquetas entregas en archivo XMI  357" color="#8cb6ce" meeting="false" start="2009-09-24" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="233" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="231" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="358" name="M54 - Revisar avance documentos y estado de proyecto según cronograma cerrar pendientes" color="#8cb6ce" meeting="false" start="2009-09-21" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="261" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="277" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-03-23" duration="5" complete="0" priority="1" expand="false"/>
             </task>
-            <task id="80" name="Revisión de avance por el asesor (semana 8)" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="false">
+            <task id="80" name="Revisión de avance por el asesor (semana 8)" color="#8cb6ce" meeting="false" start="2009-03-02" duration="154" complete="0" priority="1" expand="true">
                 <task id="111" name="Desarrollo al 90%" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="359" name="M55 - Middle CASE terminar archivo XMI " color="#8cb6ce" meeting="false" start="2009-09-28" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="360" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="241" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="360" name="M56 – CAST Validación pruebas completas del desarrollo, de ser posible integración con grupo de desarrollo de motor especializado." color="#8cb6ce" meeting="false" start="2009-10-01" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="239" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="237" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="false"/>
-                <task id="281" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="281" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-03-02" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="279" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="102" name="Carta de Avances (60% del curso - 90% del Desarrollo)" color="#8cb6ce" meeting="false" start="2009-03-30" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="81" name="Revisión de avance por el asesor (semana 9)" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="false">
+            <task id="81" name="Revisión de avance por el asesor (semana 9)" color="#8cb6ce" meeting="false" start="2009-04-06" duration="134" complete="0" priority="1" expand="true">
                 <task id="112" name="Desarrollo al 100%" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="361" name="M57 – Middle CASE Refinamiento del desarrollo " color="#8cb6ce" meeting="false" start="2009-10-05" duration="3" complete="0" priority="1" expand="true">
+                    <depend id="362" type="2" difference="0" hardness="Strong"/>
+                </task>
                 <task id="247" name="Pruebas de Desarrollador (Pruebas)" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="false"/>
+                <task id="362" name="M58 - CAST pruebas conjuntas proyecto 100%" color="#8cb6ce" meeting="false" start="2009-10-08" duration="1" complete="0" priority="1" expand="true"/>
                 <task id="245" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="243" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="285" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="false"/>
@@ -267,40 +340,46 @@
                 <task id="286" name="Plan de Despliegue (Despliegue)" color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="120" name="Carta para Sustentación en Colegio " color="#8cb6ce" meeting="false" start="2009-04-06" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="82" name="Presentación a Estudiantes de Seminario (semana 10)" color="#8cb6ce" meeting="false" start="2009-04-13" duration="5" complete="0" priority="1" expand="false">
+            <task id="82" name="Presentación a Estudiantes de Seminario (semana 10)" color="#8cb6ce" meeting="false" start="2009-04-13" duration="132" complete="0" priority="1" expand="true">
+                <task id="364" name="M59 - Prepara sustentación" color="#8cb6ce" meeting="false" start="2009-10-12" duration="2" complete="0" priority="1" expand="true"/>
                 <task id="134" name="Sustentación a Estudiantes de Seminario de Proyecto de Grado" color="#8cb6ce" meeting="false" start="2009-04-13" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="83" name="Pruebas de usuario final  (semana 11)" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="false">
+            <task id="363" name="M60 - Cerrar documentos cerrar desarrollo" color="#8cb6ce" meeting="false" start="2009-10-12" duration="4" complete="0" priority="1" expand="true"/>
+            <task id="83" name="Pruebas de usuario final  (semana 11)" color="#8cb6ce" meeting="false" start="2009-04-20" duration="134" complete="0" priority="1" expand="true">
                 <task id="113" name="Cierre Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="289" name="Cierre Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="false"/>
                 <task id="114" name="Construcción de Conclusiones" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="365" name="M61 - Recopilación documentos entregados " color="#8cb6ce" meeting="false" start="2009-10-19" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="116" name="Redacción de Introducción y Resumen" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="117" name="Redacción de Recomendaciones y Trabajo Futuro" color="#8cb6ce" meeting="false" start="2009-04-20" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="84" name="Manuales (semana 12)" color="#8cb6ce" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="false">
+            <task id="84" name="Manuales (semana 12)" color="#8cb6ce" meeting="false" start="2009-04-27" duration="134" complete="0" priority="1" expand="true">
                 <task id="115" name="Manual Técnico" color="#8cb6ce" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="366" name="M62 - Elaboración de temas incluidos en el manual" color="#8cb6ce" meeting="false" start="2009-10-26" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="121" name="Sustentación Pública en Colegio" color="#8cb6ce" meeting="false" start="2009-04-27" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="85" name="Manuales (semana 13)" color="#8cb6ce" meeting="false" start="2009-05-04" duration="5" complete="0" priority="1" expand="false">
+            <task id="85" name="Manuales (semana 13)" color="#8cb6ce" meeting="false" start="2009-05-04" duration="134" complete="0" priority="1" expand="true">
                 <task id="118" name="Manual Usuario" color="#8cb6ce" meeting="false" start="2009-05-04" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="367" name="M63 - Elaboración de manual cada modulo" color="#8cb6ce" meeting="false" start="2009-11-02" duration="4" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="86" name="Artículo (semana 14) " color="#8cb6ce" meeting="false" start="2009-05-11" duration="5" complete="0" priority="1" expand="false">
+            <task id="86" name="Artículo (semana 14) " color="#8cb6ce" meeting="false" start="2009-05-11" duration="5" complete="0" priority="1" expand="true">
                 <task id="119" name="Artículo" color="#8cb6ce" meeting="false" start="2009-05-11" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="87" name="Tercera entrega (100% del curso) (semana 15)" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="false">
+            <task id="87" name="Tercera entrega (100% del curso) (semana 15)" color="#8cb6ce" meeting="false" start="2009-05-18" duration="129" complete="0" priority="1" expand="true">
                 <task id="122" name="2 Copias de: Monografia, Manuales y Artículo" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="368" name="M64 - Hacer entregables" color="#8cb6ce" meeting="false" start="2009-11-09" duration="4" complete="0" priority="1" expand="true"/>
                 <task id="290" name="2 Copias de: CD's con Entregables" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="125" name="Carta de Aceptación por Asesor Técnico Basado en Plan de Aceptación de Producto" color="#8cb6ce" meeting="false" start="2009-05-18" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="88" name="Jurados (semana 16)" color="#8cb6ce" meeting="false" start="2009-05-25" duration="5" complete="0" priority="1" expand="false">
+            <task id="88" name="Jurados (semana 16)" color="#8cb6ce" meeting="false" start="2009-05-25" duration="5" complete="0" priority="1" expand="true">
                 <task id="131" name="Construir las diapositivas de presentación del proyecto y Aplicación Final" color="#8cb6ce" meeting="false" start="2009-05-25" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="126" name="Asiganción de Jurados" color="#8cb6ce" meeting="false" start="2009-05-25" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="127" name="Preparar Sustentación (semana 17)" color="#8cb6ce" meeting="false" start="2009-06-01" duration="5" complete="0" priority="1" expand="false">
+            <task id="127" name="Preparar Sustentación (semana 17)" color="#8cb6ce" meeting="false" start="2009-06-01" duration="5" complete="0" priority="1" expand="true">
                 <task id="129" name="Presustentación" color="#8cb6ce" meeting="false" start="2009-06-01" duration="5" complete="0" priority="1" expand="true"/>
                 <task id="149" name="Correcciones de documentos y software; según jurado" color="#8cb6ce" meeting="false" start="2009-06-01" duration="5" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="128" name="Sustentación (semana 18 y 19)" color="#8cb6ce" meeting="false" start="2009-06-08" duration="5" complete="0" priority="1" expand="false">
+            <task id="128" name="Sustentación (semana 18 y 19)" color="#8cb6ce" meeting="false" start="2009-06-08" duration="5" complete="0" priority="1" expand="true">
                 <task id="132" name="Sustentación privada (Si es aprobada por Jurados)" color="#8cb6ce" meeting="false" start="2009-06-08" duration="5" complete="0" priority="1" expand="true"/>
             </task>
         </task>
@@ -356,9 +435,9 @@
     </allocations>
     <vacations/>
     <taskdisplaycolumns>
-        <displaycolumn property-id="tpd3" order="0" width="445"/>
-        <displaycolumn property-id="tpd4" order="1" width="57"/>
-        <displaycolumn property-id="tpd5" order="2" width="242"/>
+        <displaycolumn property-id="tpd3" order="0" width="495"/>
+        <displaycolumn property-id="tpd4" order="1" width="85"/>
+        <displaycolumn property-id="tpd5" order="2" width="164"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
