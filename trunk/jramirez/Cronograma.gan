@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Transformacion de modelos de lineas de produccion a modelos matematicos" company="Fundacion Universitaria San Martin" webLink="http://" view-date="2009-07-27" view-index="0" gantt-divider-location="603" resource-divider-location="300" version="2.0">
+<project name="Transformacion de modelos de lineas de produccion a modelos matematicos" company="Fundacion Universitaria San Martin" webLink="http://" view-date="2009-10-05" view-index="0" gantt-divider-location="603" resource-divider-location="300" version="2.0">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart"/>
+    <view zooming-state="default:7" id="gantt-chart"/>
     <view id="resource-table">
         <field id="0" name="Nombre" width="55" order="0"/>
         <field id="1" name="Función" width="44" order="1"/>
@@ -31,10 +31,10 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="9" name="Transformacion de modelos de lineas de produccion a modelos matematicos" color="#8cb6ce" meeting="false" start="2009-07-27" duration="291" complete="0" priority="1" expand="true">
-            <task id="0" name="Fase de Iniciacion" color="#8cb6ce" meeting="false" start="2009-07-27" duration="51" complete="0" priority="1" expand="true">
-                <task id="3" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2009-07-27" duration="51" complete="0" priority="1" expand="false">
-                    <task id="1" name="M1" color="#8cb6ce" meeting="false" start="2009-07-27" duration="14" complete="0" priority="1" expand="false">
+        <task id="9" name="Transformacion de modelos de lineas de produccion a modelos matematicos" color="#8cb6ce" meeting="false" start="2009-07-27" duration="299" complete="0" priority="1" expand="true">
+            <task id="0" name="Fase de Iniciacion" color="#8cb6ce" meeting="false" start="2009-07-27" duration="47" complete="0" priority="1" expand="true">
+                <task id="3" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2009-07-27" duration="47" complete="0" priority="1" expand="false">
+                    <task id="1" name="M1" color="#8cb6ce" meeting="false" start="2009-07-27" duration="14" complete="0" priority="1" expand="true">
                         <task id="38" name="Documento de peticion de interesados" color="#8cb6ce" meeting="false" start="2009-07-27" duration="10" complete="0" priority="1" expand="true">
                             <depend id="37" type="2" difference="0" hardness="Strong"/>
                             <depend id="44" type="2" difference="0" hardness="Strong"/>
@@ -46,214 +46,216 @@
                             <depend id="44" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="4" name="M2" color="#8cb6ce" meeting="false" start="2009-08-10" duration="9" complete="0" priority="1" expand="false">
+                    <task id="4" name="M2" color="#8cb6ce" meeting="false" start="2009-08-10" duration="7" complete="0" priority="1" expand="true">
                         <task id="44" name="Documento de plan de gestion de los requerimientos" color="#8cb6ce" meeting="false" start="2009-08-10" duration="3" complete="0" priority="1" expand="true">
                             <depend id="45" type="2" difference="0" hardness="Strong"/>
-                            <depend id="46" type="2" difference="0" hardness="Strong"/>
                         </task>
                         <task id="45" name="Documento de requerimientos no funcionales" color="#8cb6ce" meeting="false" start="2009-08-13" duration="2" complete="0" priority="1" expand="true">
-                            <depend id="46" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="46" name="Documento de especificaion de requerimientos" color="#8cb6ce" meeting="false" start="2009-08-15" duration="2" complete="0" priority="1" expand="true">
                             <depend id="43" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="43" name="Documento de gestion de la configuracion" color="#8cb6ce" meeting="false" start="2009-08-17" duration="2" complete="0" priority="1" expand="true">
+                        <task id="43" name="Documento de gestion de la configuracion" color="#8cb6ce" meeting="false" start="2009-08-15" duration="2" complete="0" priority="1" expand="true">
                             <depend id="41" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="2" name="M3" color="#8cb6ce" meeting="false" start="2009-08-19" duration="7" complete="0" priority="1" expand="false">
-                        <task id="41" name="Documento de vision" color="#8cb6ce" meeting="false" start="2009-08-19" duration="3" complete="0" priority="1" expand="true">
+                    <task id="2" name="M3" color="#8cb6ce" meeting="false" start="2009-08-17" duration="7" complete="0" priority="1" expand="true">
+                        <task id="41" name="Documento de vision" color="#8cb6ce" meeting="false" start="2009-08-17" duration="3" complete="0" priority="1" expand="true">
                             <depend id="42" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="42" name="Documento de plan de desarrollo de software" color="#8cb6ce" meeting="false" start="2009-08-22" duration="4" complete="0" priority="1" expand="true">
-                            <depend id="49" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                    <task id="5" name="M4" color="#8cb6ce" meeting="false" start="2009-08-26" duration="7" complete="0" priority="1" expand="false">
-                        <task id="49" name="Plan de pruebas" color="#8cb6ce" meeting="false" start="2009-08-26" duration="2" complete="0" priority="1" expand="true">
+                        <task id="42" name="Documento de plan de desarrollo de software" color="#8cb6ce" meeting="false" start="2009-08-20" duration="4" complete="0" priority="1" expand="true">
                             <depend id="50" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="50" name="Plan de resolucion de pruebas" color="#8cb6ce" meeting="false" start="2009-08-28" duration="2" complete="0" priority="1" expand="true">
+                    </task>
+                    <task id="5" name="M4" color="#8cb6ce" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true">
+                        <task id="50" name="Plan de resolucion de pruebas" color="#8cb6ce" meeting="false" start="2009-08-24" duration="2" complete="0" priority="1" expand="true">
                             <depend id="47" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="47" name="Glosario" color="#8cb6ce" meeting="false" start="2009-08-30" duration="1" complete="0" priority="1" expand="true">
+                        <task id="47" name="Glosario" color="#8cb6ce" meeting="false" start="2009-08-26" duration="1" complete="0" priority="1" expand="true">
                             <depend id="48" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="48" name="Documento de solicitud de cambios" color="#8cb6ce" meeting="false" start="2009-08-31" duration="2" complete="0" priority="1" expand="true">
+                        <task id="48" name="Documento de solicitud de cambios" color="#8cb6ce" meeting="false" start="2009-08-27" duration="2" complete="0" priority="1" expand="true">
                             <depend id="51" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="6" name="M5" color="#8cb6ce" meeting="false" start="2009-09-02" duration="14" complete="0" priority="1" expand="false">
-                        <task id="51" name="Anteproyecto" color="#8cb6ce" meeting="false" start="2009-09-02" duration="14" complete="0" priority="1" expand="true">
+                    <task id="6" name="M5" color="#8cb6ce" meeting="false" start="2009-08-29" duration="14" complete="0" priority="1" expand="false">
+                        <task id="51" name="Anteproyecto" color="#8cb6ce" meeting="false" start="2009-08-29" duration="14" complete="0" priority="1" expand="true">
                             <depend id="52" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
                 </task>
             </task>
-            <task id="7" name="Fase de Elaboracion" color="#8cb6ce" meeting="false" start="2009-09-16" duration="44" complete="0" priority="1" expand="true">
-                <task id="8" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2009-09-16" duration="44" complete="0" priority="1" expand="false">
-                    <task id="10" name="M1" color="#8cb6ce" meeting="false" start="2009-09-16" duration="34" complete="0" priority="1" expand="false">
-                        <task id="52" name="Diagramas de secuencia" color="#8cb6ce" meeting="false" start="2009-09-16" duration="15" complete="0" priority="1" expand="true">
+            <task id="7" name="Fase de Elaboracion" color="#8cb6ce" meeting="false" start="2009-09-12" duration="56" complete="0" priority="1" expand="true">
+                <task id="8" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2009-09-12" duration="56" complete="0" priority="1" expand="true">
+                    <task id="10" name="M1" color="#8cb6ce" meeting="false" start="2009-09-12" duration="34" complete="0" priority="1" expand="false">
+                        <task id="52" name="Diagramas de secuencia" color="#8cb6ce" meeting="false" start="2009-09-12" duration="15" complete="0" priority="1" expand="true">
                             <depend id="53" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="53" name="Diagrama de clases" color="#8cb6ce" meeting="false" start="2009-10-01" duration="15" complete="0" priority="1" expand="true">
+                        <task id="53" name="Diagrama de clases" color="#8cb6ce" meeting="false" start="2009-09-27" duration="15" complete="0" priority="1" expand="true">
                             <depend id="54" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="54" name="Documento de aseguramiento de calidad" color="#8cb6ce" meeting="false" start="2009-10-16" duration="4" complete="0" priority="1" expand="true">
+                        <task id="54" name="Documento de aseguramiento de calidad" color="#8cb6ce" meeting="false" start="2009-10-12" duration="4" complete="0" priority="1" expand="true">
                             <depend id="55" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="11" name="M2" color="#8cb6ce" meeting="false" start="2009-10-20" duration="10" complete="0" priority="1" expand="false">
-                        <task id="55" name="Documento de arquitectura" color="#8cb6ce" meeting="false" start="2009-10-20" duration="10" complete="0" priority="1" expand="true">
+                    <task id="11" name="M2" color="#8cb6ce" meeting="false" start="2009-10-16" duration="22" complete="0" priority="1" expand="true">
+                        <task id="55" name="Documento de arquitectura" color="#8cb6ce" meeting="false" start="2009-10-16" duration="10" complete="0" priority="1" expand="true">
+                            <depend id="89" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="89" name="Documento de especificacion de requerimientos" color="#8cb6ce" meeting="false" start="2009-10-26" duration="5" complete="0" priority="1" expand="true">
+                            <depend id="90" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="90" name="Documento  plan maestro de pruebas" color="#8cb6ce" meeting="false" start="2009-10-31" duration="5" complete="0" priority="1" expand="true">
+                            <depend id="91" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="91" name="Documento de aseguramiento de calidad" color="#8cb6ce" meeting="false" start="2009-11-05" duration="2" complete="0" priority="1" expand="true">
                             <depend id="56" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
                 </task>
             </task>
-            <task id="12" name="Fase de Construccion" color="#8cb6ce" meeting="false" start="2009-10-30" duration="171" complete="0" priority="1" expand="true">
-                <task id="13" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2009-10-30" duration="49" complete="0" priority="1" expand="false">
-                    <task id="17" name="M1" color="#8cb6ce" meeting="false" start="2009-10-30" duration="10" complete="0" priority="1" expand="true">
-                        <task id="56" name="Plugin estandar para eclipse en el cual se cambian las perspectivas" color="#8cb6ce" meeting="false" start="2009-10-30" duration="5" complete="0" priority="1" expand="true">
+            <task id="12" name="Fase de Construccion" color="#8cb6ce" meeting="false" start="2009-11-07" duration="171" complete="0" priority="1" expand="true">
+                <task id="13" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2009-11-07" duration="49" complete="0" priority="1" expand="true">
+                    <task id="17" name="M1" color="#8cb6ce" meeting="false" start="2009-11-07" duration="10" complete="0" priority="1" expand="false">
+                        <task id="56" name="Plugin estandar para eclipse en el cual se cambian las perspectivas" color="#8cb6ce" meeting="false" start="2009-11-07" duration="5" complete="0" priority="1" expand="true">
                             <depend id="57" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="57" name="RCP basado en eclipse, en el cual se cambian las perspectivas" color="#8cb6ce" meeting="false" start="2009-11-04" duration="5" complete="0" priority="1" expand="true">
+                        <task id="57" name="RCP basado en eclipse, en el cual se cambian las perspectivas" color="#8cb6ce" meeting="false" start="2009-11-12" duration="5" complete="0" priority="1" expand="true">
                             <depend id="58" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="18" name="M2" color="#8cb6ce" meeting="false" start="2009-11-09" duration="3" complete="0" priority="1" expand="true">
-                        <task id="58" name="Documento plan de aceptacion del producti" color="#8cb6ce" meeting="false" start="2009-11-09" duration="3" complete="0" priority="1" expand="true">
+                    <task id="18" name="M2" color="#8cb6ce" meeting="false" start="2009-11-17" duration="3" complete="0" priority="1" expand="false">
+                        <task id="58" name="Documento plan de aceptacion del producti" color="#8cb6ce" meeting="false" start="2009-11-17" duration="3" complete="0" priority="1" expand="true">
                             <depend id="59" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="19" name="M3" color="#8cb6ce" meeting="false" start="2009-11-12" duration="10" complete="0" priority="1" expand="true">
-                        <task id="59" name="Metamodelo de lineas de produccion" color="#8cb6ce" meeting="false" start="2009-11-12" duration="5" complete="0" priority="1" expand="true">
+                    <task id="19" name="M3" color="#8cb6ce" meeting="false" start="2009-11-20" duration="10" complete="0" priority="1" expand="false">
+                        <task id="59" name="Metamodelo de lineas de produccion" color="#8cb6ce" meeting="false" start="2009-11-20" duration="5" complete="0" priority="1" expand="true">
                             <depend id="60" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="60" name="Metamodelo de modelos matematicos" color="#8cb6ce" meeting="false" start="2009-11-17" duration="5" complete="0" priority="1" expand="true">
+                        <task id="60" name="Metamodelo de modelos matematicos" color="#8cb6ce" meeting="false" start="2009-11-25" duration="5" complete="0" priority="1" expand="true">
                             <depend id="61" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="20" name="M4" color="#8cb6ce" meeting="false" start="2009-11-22" duration="16" complete="0" priority="1" expand="true">
-                        <task id="61" name="Mepeos para la transformacion" color="#8cb6ce" meeting="false" start="2009-11-22" duration="8" complete="0" priority="1" expand="true">
+                    <task id="20" name="M4" color="#8cb6ce" meeting="false" start="2009-11-30" duration="16" complete="0" priority="1" expand="false">
+                        <task id="61" name="Mepeos para la transformacion" color="#8cb6ce" meeting="false" start="2009-11-30" duration="8" complete="0" priority="1" expand="true">
                             <depend id="62" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="62" name="Marcas para la transformacion" color="#8cb6ce" meeting="false" start="2009-11-30" duration="8" complete="0" priority="1" expand="true">
+                        <task id="62" name="Marcas para la transformacion" color="#8cb6ce" meeting="false" start="2009-12-08" duration="8" complete="0" priority="1" expand="true">
                             <depend id="63" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="21" name="M5" color="#8cb6ce" meeting="false" start="2009-12-08" duration="10" complete="0" priority="1" expand="true">
-                        <task id="63" name="Pruebas en el modelo basado en el metamodelo de lineas de produccion" color="#8cb6ce" meeting="false" start="2009-12-08" duration="5" complete="0" priority="1" expand="true">
+                    <task id="21" name="M5" color="#8cb6ce" meeting="false" start="2009-12-16" duration="10" complete="0" priority="1" expand="false">
+                        <task id="63" name="Pruebas en el modelo basado en el metamodelo de lineas de produccion" color="#8cb6ce" meeting="false" start="2009-12-16" duration="5" complete="0" priority="1" expand="true">
                             <depend id="64" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="64" name="Pruebas de modelos basados en el modelo de modelos matematicos" color="#8cb6ce" meeting="false" start="2009-12-13" duration="5" complete="0" priority="1" expand="true">
+                        <task id="64" name="Pruebas de modelos basados en el modelo de modelos matematicos" color="#8cb6ce" meeting="false" start="2009-12-21" duration="5" complete="0" priority="1" expand="true">
                             <depend id="65" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
                 </task>
-                <task id="14" name="Iteracion 2" color="#8cb6ce" meeting="false" start="2009-12-18" duration="64" complete="0" priority="1" expand="false">
-                    <task id="22" name="M1" color="#8cb6ce" meeting="false" start="2009-12-18" duration="20" complete="0" priority="1" expand="true">
-                        <task id="65" name="RCP para la diagramacion de lineas de produccion" color="#8cb6ce" meeting="false" start="2009-12-18" duration="15" complete="0" priority="1" expand="true">
+                <task id="14" name="Iteracion 2" color="#8cb6ce" meeting="false" start="2009-12-26" duration="64" complete="0" priority="1" expand="false">
+                    <task id="22" name="M1" color="#8cb6ce" meeting="false" start="2009-12-26" duration="20" complete="0" priority="1" expand="true">
+                        <task id="65" name="RCP para la diagramacion de lineas de produccion" color="#8cb6ce" meeting="false" start="2009-12-26" duration="15" complete="0" priority="1" expand="true">
                             <depend id="66" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="66" name="Pruebas de la herramienta RCP para diagramacion de lineas de produccion" color="#8cb6ce" meeting="false" start="2010-01-02" duration="5" complete="0" priority="1" expand="true">
+                        <task id="66" name="Pruebas de la herramienta RCP para diagramacion de lineas de produccion" color="#8cb6ce" meeting="false" start="2010-01-10" duration="5" complete="0" priority="1" expand="true">
                             <depend id="67" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="23" name="M2" color="#8cb6ce" meeting="false" start="2010-01-07" duration="20" complete="0" priority="1" expand="true">
-                        <task id="67" name="Transformacion de modelo de lineas de produccion a modelo matematico" color="#8cb6ce" meeting="false" start="2010-01-07" duration="15" complete="0" priority="1" expand="true">
+                    <task id="23" name="M2" color="#8cb6ce" meeting="false" start="2010-01-15" duration="20" complete="0" priority="1" expand="true">
+                        <task id="67" name="Transformacion de modelo de lineas de produccion a modelo matematico" color="#8cb6ce" meeting="false" start="2010-01-15" duration="15" complete="0" priority="1" expand="true">
                             <depend id="68" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="68" name="Pruebas de transformacion entre modelos" color="#8cb6ce" meeting="false" start="2010-01-22" duration="5" complete="0" priority="1" expand="true">
+                        <task id="68" name="Pruebas de transformacion entre modelos" color="#8cb6ce" meeting="false" start="2010-01-30" duration="5" complete="0" priority="1" expand="true">
                             <depend id="69" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="24" name="M3" color="#8cb6ce" meeting="false" start="2010-01-27" duration="24" complete="0" priority="1" expand="true">
-                        <task id="69" name="XMI para la representacion de modelos" color="#8cb6ce" meeting="false" start="2010-01-27" duration="8" complete="0" priority="1" expand="true">
+                    <task id="24" name="M3" color="#8cb6ce" meeting="false" start="2010-02-04" duration="24" complete="0" priority="1" expand="true">
+                        <task id="69" name="XMI para la representacion de modelos" color="#8cb6ce" meeting="false" start="2010-02-04" duration="8" complete="0" priority="1" expand="true">
                             <depend id="70" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="70" name="Componente para la captura de informacion a partir de archivos" color="#8cb6ce" meeting="false" start="2010-02-04" duration="8" complete="0" priority="1" expand="true">
+                        <task id="70" name="Componente para la captura de informacion a partir de archivos" color="#8cb6ce" meeting="false" start="2010-02-12" duration="8" complete="0" priority="1" expand="true">
                             <depend id="71" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="71" name="Componente para la captura de informacion a partir de bases de datos" color="#8cb6ce" meeting="false" start="2010-02-12" duration="8" complete="0" priority="1" expand="true">
+                        <task id="71" name="Componente para la captura de informacion a partir de bases de datos" color="#8cb6ce" meeting="false" start="2010-02-20" duration="8" complete="0" priority="1" expand="true">
                             <depend id="72" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
                 </task>
-                <task id="15" name="Iteracion 3" color="#8cb6ce" meeting="false" start="2010-02-20" duration="29" complete="0" priority="1" expand="false">
-                    <task id="25" name="M1" color="#8cb6ce" meeting="false" start="2010-02-20" duration="8" complete="0" priority="1" expand="true">
-                        <task id="72" name="Integracion de transformacioes M2M con herramienta CASE" color="#8cb6ce" meeting="false" start="2010-02-20" duration="5" complete="0" priority="1" expand="true">
+                <task id="15" name="Iteracion 3" color="#8cb6ce" meeting="false" start="2010-02-28" duration="29" complete="0" priority="1" expand="false">
+                    <task id="25" name="M1" color="#8cb6ce" meeting="false" start="2010-02-28" duration="8" complete="0" priority="1" expand="true">
+                        <task id="72" name="Integracion de transformacioes M2M con herramienta CASE" color="#8cb6ce" meeting="false" start="2010-02-28" duration="5" complete="0" priority="1" expand="true">
                             <depend id="73" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="73" name="Pruebas de transformacion M2M a partir de la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-02-25" duration="3" complete="0" priority="1" expand="true">
+                        <task id="73" name="Pruebas de transformacion M2M a partir de la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-03-05" duration="3" complete="0" priority="1" expand="true">
                             <depend id="74" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="26" name="M2" color="#8cb6ce" meeting="false" start="2010-02-28" duration="12" complete="0" priority="1" expand="true">
-                        <task id="74" name="Transformacion M2T desde el modelo matematico haciendo uso de acceleo" color="#8cb6ce" meeting="false" start="2010-02-28" duration="5" complete="0" priority="1" expand="true">
+                    <task id="26" name="M2" color="#8cb6ce" meeting="false" start="2010-03-08" duration="12" complete="0" priority="1" expand="true">
+                        <task id="74" name="Transformacion M2T desde el modelo matematico haciendo uso de acceleo" color="#8cb6ce" meeting="false" start="2010-03-08" duration="5" complete="0" priority="1" expand="true">
                             <depend id="75" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="75" name="Integracion de transformacionde M2T con la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-03-05" duration="4" complete="0" priority="1" expand="true">
+                        <task id="75" name="Integracion de transformacionde M2T con la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-03-13" duration="4" complete="0" priority="1" expand="true">
                             <depend id="76" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="76" name="Pruebas de las transformacionde M2T haciendo uso de la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-03-09" duration="3" complete="0" priority="1" expand="true">
+                        <task id="76" name="Pruebas de las transformacionde M2T haciendo uso de la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-03-17" duration="3" complete="0" priority="1" expand="true">
                             <depend id="77" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="27" name="M3" color="#8cb6ce" meeting="false" start="2010-03-12" duration="9" complete="0" priority="1" expand="true">
-                        <task id="77" name="Generacion de codigo fuente haciendo uso de acceleo y/o velocity" color="#8cb6ce" meeting="false" start="2010-03-12" duration="5" complete="0" priority="1" expand="true">
+                    <task id="27" name="M3" color="#8cb6ce" meeting="false" start="2010-03-20" duration="9" complete="0" priority="1" expand="true">
+                        <task id="77" name="Generacion de codigo fuente haciendo uso de acceleo y/o velocity" color="#8cb6ce" meeting="false" start="2010-03-20" duration="5" complete="0" priority="1" expand="true">
                             <depend id="78" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="78" name="Pruebas de generación de código fuente haciendo uso de acceleo y/o velocity" color="#8cb6ce" meeting="false" start="2010-03-17" duration="4" complete="0" priority="1" expand="true">
+                        <task id="78" name="Pruebas de generación de código fuente haciendo uso de acceleo y/o velocity" color="#8cb6ce" meeting="false" start="2010-03-25" duration="4" complete="0" priority="1" expand="true">
                             <depend id="79" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
                 </task>
-                <task id="16" name="Iteracion 4" color="#8cb6ce" meeting="false" start="2010-03-21" duration="29" complete="0" priority="1" expand="false">
-                    <task id="28" name="M1" color="#8cb6ce" meeting="false" start="2010-03-21" duration="9" complete="0" priority="1" expand="true">
-                        <task id="79" name="Componente para generar la base de código fuente que permita a otro programa su compilación y ejecución automática" color="#8cb6ce" meeting="false" start="2010-03-21" duration="5" complete="0" priority="1" expand="true">
+                <task id="16" name="Iteracion 4" color="#8cb6ce" meeting="false" start="2010-03-29" duration="29" complete="0" priority="1" expand="false">
+                    <task id="28" name="M1" color="#8cb6ce" meeting="false" start="2010-03-29" duration="9" complete="0" priority="1" expand="true">
+                        <task id="79" name="Componente para generar la base de código fuente que permita a otro programa su compilación y ejecución automática" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="true">
                             <depend id="80" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="80" name="Pruebas de compilación y ejecución automática de código fuente" color="#8cb6ce" meeting="false" start="2010-03-26" duration="4" complete="0" priority="1" expand="true">
+                        <task id="80" name="Pruebas de compilación y ejecución automática de código fuente" color="#8cb6ce" meeting="false" start="2010-04-03" duration="4" complete="0" priority="1" expand="true">
                             <depend id="81" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="29" name="M2" color="#8cb6ce" meeting="false" start="2010-03-30" duration="10" complete="0" priority="1" expand="true">
-                        <task id="81" name="Generación de código java para el uso de la herramienta AMM a través de su interfaz para la integración con la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-03-30" duration="5" complete="0" priority="1" expand="true">
+                    <task id="29" name="M2" color="#8cb6ce" meeting="false" start="2010-04-07" duration="10" complete="0" priority="1" expand="true">
+                        <task id="81" name="Generación de código java para el uso de la herramienta AMM a través de su interfaz para la integración con la herramienta CASE" color="#8cb6ce" meeting="false" start="2010-04-07" duration="5" complete="0" priority="1" expand="true">
                             <depend id="82" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="82" name="Captura e interpretación de resultados de la herramienta AMM." color="#8cb6ce" meeting="false" start="2010-04-04" duration="5" complete="0" priority="1" expand="true">
+                        <task id="82" name="Captura e interpretación de resultados de la herramienta AMM." color="#8cb6ce" meeting="false" start="2010-04-12" duration="5" complete="0" priority="1" expand="true">
                             <depend id="83" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="30" name="M3" color="#8cb6ce" meeting="false" start="2010-04-09" duration="8" complete="0" priority="1" expand="true">
-                        <task id="83" name="Visualizador de resultados para la respuesta de la herramienta AMM" color="#8cb6ce" meeting="false" start="2010-04-09" duration="5" complete="0" priority="1" expand="true">
+                    <task id="30" name="M3" color="#8cb6ce" meeting="false" start="2010-04-17" duration="8" complete="0" priority="1" expand="true">
+                        <task id="83" name="Visualizador de resultados para la respuesta de la herramienta AMM" color="#8cb6ce" meeting="false" start="2010-04-17" duration="5" complete="0" priority="1" expand="true">
                             <depend id="84" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="84" name="Pruebas de la visualización de los resultado de la optimización" color="#8cb6ce" meeting="false" start="2010-04-14" duration="3" complete="0" priority="1" expand="true">
+                        <task id="84" name="Pruebas de la visualización de los resultado de la optimización" color="#8cb6ce" meeting="false" start="2010-04-22" duration="3" complete="0" priority="1" expand="true">
                             <depend id="85" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="31" name="M4" color="#8cb6ce" meeting="false" start="2010-04-17" duration="2" complete="0" priority="1" expand="true">
-                        <task id="85" name="Documento de ejecucion de pruebas" color="#8cb6ce" meeting="false" start="2010-04-17" duration="2" complete="0" priority="1" expand="true">
+                    <task id="31" name="M4" color="#8cb6ce" meeting="false" start="2010-04-25" duration="2" complete="0" priority="1" expand="true">
+                        <task id="85" name="Documento de ejecucion de pruebas" color="#8cb6ce" meeting="false" start="2010-04-25" duration="2" complete="0" priority="1" expand="true">
                             <depend id="86" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
                 </task>
             </task>
-            <task id="32" name="Fase de Transicion" color="#8cb6ce" meeting="false" start="2010-04-19" duration="25" complete="0" priority="1" expand="true">
-                <task id="33" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2010-04-19" duration="25" complete="0" priority="1" expand="true">
-                    <task id="34" name="M1" color="#8cb6ce" meeting="false" start="2010-04-19" duration="5" complete="0" priority="1" expand="true">
-                        <task id="86" name="Manual tecnico" color="#8cb6ce" meeting="false" start="2010-04-19" duration="5" complete="0" priority="1" expand="true">
+            <task id="32" name="Fase de Transicion" color="#8cb6ce" meeting="false" start="2010-04-27" duration="25" complete="0" priority="1" expand="true">
+                <task id="33" name="Iteracion 1" color="#8cb6ce" meeting="false" start="2010-04-27" duration="25" complete="0" priority="1" expand="true">
+                    <task id="34" name="M1" color="#8cb6ce" meeting="false" start="2010-04-27" duration="5" complete="0" priority="1" expand="false">
+                        <task id="86" name="Manual tecnico" color="#8cb6ce" meeting="false" start="2010-04-27" duration="5" complete="0" priority="1" expand="true">
                             <depend id="87" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="35" name="M2" color="#8cb6ce" meeting="false" start="2010-04-24" duration="5" complete="0" priority="1" expand="true">
-                        <task id="87" name="Manual de usuario" color="#8cb6ce" meeting="false" start="2010-04-24" duration="5" complete="0" priority="1" expand="true">
+                    <task id="35" name="M2" color="#8cb6ce" meeting="false" start="2010-05-02" duration="5" complete="0" priority="1" expand="false">
+                        <task id="87" name="Manual de usuario" color="#8cb6ce" meeting="false" start="2010-05-02" duration="5" complete="0" priority="1" expand="true">
                             <depend id="88" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="36" name="M3" color="#8cb6ce" meeting="false" start="2010-04-29" duration="15" complete="0" priority="1" expand="true">
-                        <task id="88" name="Monografia" color="#8cb6ce" meeting="false" start="2010-04-29" duration="15" complete="0" priority="1" expand="true"/>
+                    <task id="36" name="M3" color="#8cb6ce" meeting="false" start="2010-05-07" duration="15" complete="0" priority="1" expand="false">
+                        <task id="88" name="Monografia" color="#8cb6ce" meeting="false" start="2010-05-07" duration="15" complete="0" priority="1" expand="true"/>
                     </task>
                 </task>
             </task>
