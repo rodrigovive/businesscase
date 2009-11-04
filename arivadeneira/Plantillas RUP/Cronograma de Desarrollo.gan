@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-02-01" view-index="0" gantt-divider-location="987" resource-divider-location="-1" version="2.0">
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2009-12-13" view-index="0" gantt-divider-location="784" resource-divider-location="-1" version="2.0">
     <description/>
     <view zooming-state="default:0" id="gantt-chart"/>
     <view id="resource-table">
@@ -31,140 +31,262 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="1.  Cronograma Proyecto &quot;Herramienta CASE aplicando MDA&quot;" meeting="false" start="2007-09-07" duration="716" complete="0" priority="1" expand="true">
-            <task id="1" name="semanas 0" meeting="false" start="2009-07-20" duration="5" complete="0" priority="1" expand="true">
-                <depend id="3" type="2" difference="0" hardness="Strong"/>
-                <task id="2" name="Investigar Herramientas CASE" meeting="false" start="2009-07-20" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="296" name="Investigar Modelos matemáticos para MDVRP" color="#8cb6ce" meeting="false" start="2009-07-22" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="297" name="Reunión con el Asesor Técnico para revisar avances" color="#8cb6ce" meeting="false" start="2009-07-24" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="526" name="Invetigar MDA  Acceleo, ATL , QVT, Velocity " color="#8cb6ce" meeting="false" start="2009-07-24" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="527" name="Investigar Sobre plantillas RUP" color="#8cb6ce" meeting="false" start="2009-07-22" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="0" name="1.  CronogramaSeminarioProyectoGrado" meeting="false" start="2009-06-09" duration="264" complete="0" priority="1" expand="true">
+            <task id="295" name="Periodo de Vacaciones previo a Seminario" color="#8cb6ce" meeting="false" start="2009-06-09" duration="29" complete="0" priority="1" expand="false">
+                <task id="296" name="Investigar Herramientas CASE" color="#8cb6ce" meeting="false" start="2009-06-09" duration="4" complete="0" priority="1" expand="true"/>
+                <task id="298" name="Invetigar MDA,  Acceleo, ATL , QVT, Velocity, eclipse RCP " color="#8cb6ce" meeting="false" start="2009-06-15" duration="11" complete="0" priority="1" expand="true"/>
+                <task id="297" name="Investigar Modelos matemáticos para distribución de bodegaje" color="#8cb6ce" meeting="false" start="2009-06-30" duration="14" complete="0" priority="1" expand="true"/>
             </task>
-            <task id="3" name="semana 1" meeting="false" start="2009-07-27" duration="5" complete="0" priority="1" expand="true">
-                <depend id="6" type="2" difference="0" hardness="Strong"/>
-                <task id="298" name="Reunión con el Asesor Técnico para la evaluar la identificación de los Stakeholders" color="#8cb6ce" meeting="false" start="2009-07-27" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="4" name="Seleccionar posible de modelos matemáticos" meeting="false" start="2009-07-27" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="150" name="Evaluación de arquitectura de la aplicación" color="#8cb6ce" meeting="false" start="2009-07-27" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="5" name="Empezar a formular las preguntas para los Stakeholders." meeting="false" start="2009-07-27" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="7" name="Evaluación preliminar de metamodelos que interviene en el proyecto" meeting="false" start="2009-07-27" duration="5" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="6" name="semana 2" meeting="false" start="2009-08-03" duration="5" complete="0" priority="1" expand="true">
-                <task id="10" name="Reunión con el Asesor Técnico para revisar avances y ultimar detalles en las entrevistas para los Stakeholders" meeting="false" start="2009-08-03" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="299" name="Preguntas para los Stakeholders completas con sus respectivas correcciones." color="#8cb6ce" meeting="false" start="2009-08-03" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="300" name="Contactar a los Stakeholders para la realización de las entrevistas." color="#8cb6ce" meeting="false" start="2009-08-03" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="8" name="Diligenciar el documento de Glosario" meeting="false" start="2009-08-03" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="12" name="Iniciar con el diligenciamiento del Anteproyecto (Marco Teórico) con la información recopilada en semanas anteriores" meeting="false" start="2009-08-03" duration="5" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="11" name="semana 3" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true">
-                <task id="13" name="Reunión con el Asesor Técnico para evaluar las entrevistas." meeting="false" start="2009-08-10" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="291" name="Buscar Antecedentes del Proyecto" color="#8cb6ce" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="14" name="Generación documento de Visión" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="151" name="Buscar demos y tutoriales de Herramientas CASE" color="#8cb6ce" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="159" name="Adquirir e interactuar herramientas para desarrollo de la herramienta (Eclipse 3.4)" color="#8cb6ce" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="15" name="semana 4" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true">
-                <task id="152" name="Reunión con el Asesor Técnico para evaluar el estado del Anteproyecto" color="#8cb6ce" meeting="false" start="2009-08-17" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="16" name="Definir tipo de problema del transporte que se va a tratar" meeting="false" start="2009-08-17" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="17" name="Definición de la Justificación del proyecto &quot;Herramienta CASE para modelado de logistica de distribucion&quot;" meeting="false" start="2009-08-18" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="18" name="Realizar las plantillas RUP de Lista de Riesgos y Plan de gestión de Riesgos" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="292" name="Iniciar con el diligenciamiento del Marco Conceptual del Anteproyecto" color="#8cb6ce" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="301" name="Definir herramientas a utilizar para el desarrollo Acceleo Velocity ATL MOF" color="#8cb6ce" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="302" name="Seleccionar la metodologia que se utilizará para ejecutar el desarrollo del proyecto" color="#8cb6ce" meeting="false" start="2009-08-17" duration="1" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="20" name="semana 5" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true">
-                <task id="21" name="Reunión con el Asesor Técnico para evaluar el estado de los documentos y escoger la metodología a utilizar a lo largo del proyecto" meeting="false" start="2009-08-24" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="163" name="Diligenciamiento de los documentos concernientes a la semana." color="#8cb6ce" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="22" name="Realizar avances al Marco Teórico" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="24" name="Iniciar la elaboración del Cronograma" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="23" name="Buscar información que aporte al Estado del Arte" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="293" name="Actualizar Glosario" color="#8cb6ce" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="294" name="Interactuar con la elaboración de prototipos de herramienta CASE" color="#8cb6ce" meeting="false" start="2009-08-27" duration="2" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="27" name="semana 6" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true">
-                <task id="28" name="Reunión con el Asesor Técnico para evaluar el proyecto. Revisión de las plantillas y Anteproyecto" meeting="false" start="2009-08-31" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="304" name="Definir formato  de archivo y tipo de entrada  de datos " color="#8cb6ce" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="309" name="Buscar herramientas que aporten al estado del arte del proyecto Soluciones CASE y Modelos matematicos" color="#8cb6ce" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="308" name="Definición de metamodelos capa de negocio y modelo matemático" color="#8cb6ce" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="29" name="Realizar avances al Marco Teórico" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="305" name="Realizar correcciones a los documentos diligenciados hasta esta fecha" color="#8cb6ce" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="30" name="semana 7" meeting="false" start="2007-09-07" duration="526" complete="0" priority="1" expand="true">
-                <task id="31" name="Reunión con el Asesor Técnico para evaluar el estado del proyecto." meeting="false" start="2009-09-07" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="161" name="Realizar el diligenciamiento de los documentos correspondientes a la semana." color="#8cb6ce" meeting="false" start="2009-09-07" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="307" name="Realizar avances al Marco teórico y conceptual del Anteproyecto." color="#8cb6ce" meeting="false" start="2007-09-07" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="162" name="Confirmar modelo matemático seleccionado identificar índices parámetros conjuntos restricciones" color="#8cb6ce" meeting="false" start="2009-09-07" duration="5" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="32" name="Entrega de Anteproyecto Semana 8" meeting="false" start="2009-09-14" duration="5" complete="0" priority="1" expand="true">
-                <task id="160" name="Reunión con el Asesor Técnico para ultimar detalles en todos los documentos y en el Anteproyecto." color="#8cb6ce" meeting="false" start="2009-09-14" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="33" name="Realizar documentos correspondientes a la semana." meeting="false" start="2009-09-14" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="35" name="Entrega de artefactos RUP y anteproyecto para aprobación de la semana 8" meeting="false" start="2009-09-14" duration="5" complete="0" priority="2" expand="true">
-                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+            <task id="299" name="Fase de INICIO - CONCEPTUALIZACIÓN" color="#8cb6ce" meeting="false" start="2009-07-20" duration="64" complete="0" priority="1" expand="false">
+                <task id="308" name="Iteración # 1" color="#8cb6ce" meeting="false" start="2009-07-20" duration="45" complete="0" priority="1" expand="true">
+                    <task id="1" name="semana 0" meeting="false" start="2009-07-20" duration="5" complete="0" priority="1" expand="false">
+                        <depend id="3" type="2" difference="0" hardness="Strong"/>
+                        <task id="2" name="Reunión con el Asesor Técnico para revisar avances" meeting="false" start="2009-07-20" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="301" name="Revisar cambios sobre plantillas RUP y metodología OpenUP" color="#8cb6ce" meeting="false" start="2009-07-20" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="3" name="semana 1" meeting="false" start="2009-07-27" duration="10" complete="0" priority="1" expand="false">
+                        <depend id="6" type="2" difference="0" hardness="Strong"/>
+                        <task id="4" name="Tabla de Contenido de Marco Teórico" meeting="false" start="2009-07-27" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="150" name="Asignación e Identificación de Perfiles de Interesados" color="#8cb6ce" meeting="false" start="2009-07-27" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="5" name="Definición de temas anteproyecto" meeting="false" start="2009-07-27" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="7" name="Asignación de preguntas a los Interesados" meeting="false" start="2009-07-27" duration="10" complete="0" priority="1" expand="true"/>
+                        <task id="302" name="Reunión con el Asesor Técnico para revisar avances y ver entrevistas para los Interesados" color="#8cb6ce" meeting="false" start="2009-07-27" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="6" name="semana 2" meeting="false" start="2009-08-10" duration="15" complete="0" priority="1" expand="false">
+                        <task id="12" name="Mic01. Artefacto RUP Peticiones de los Interesados (Requerimientos)" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="8" name="Glosario" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="10" name="Versión preliminar de marco teórico" meeting="false" start="2009-08-10" duration="15" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="11" name="semana 3" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="false">
+                        <task id="13" name="Mic02. Artefacto RUP Plan de Gestión de Requerimientos (Requerimientos)" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="291" name="Buscar Antecedentes del Proyecto" color="#8cb6ce" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="151" name="Mic03. Artefacto RUP Visión (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-08-10" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="159" name="Valoración del Estado (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-08-14" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="15" name="semana 4" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="false">
+                        <task id="152" name="Mic04. Artefacto RUP Lista de Riesgos (Análisis y Diseño)" color="#8cb6ce" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="16" name="Problema" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="17" name="Justificación" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="18" name="Definir Objetivo General y Especificos" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="292" name="Iniciar con el diligenciamiento del Marco Conceptual del Anteproyecto" color="#8cb6ce" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="153" name="Mic05. Artefacto RUP Plan de Gestión de Riesgos (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-08-17" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="20" name="semana 5" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="false">
+                        <task id="21" name="Metodologia" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="163" name="Mic06. Artefacto RUP Plan de Desarrollo de Software (Gestión de Cambios y Configuración)" color="#8cb6ce" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="22" name="Denir los Recursos que se van a utilizar" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="24" name="Iniciar la elaboración del Cronograma" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="23" name="Limitaciones y Alcance" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="293" name="Realizar avances al Marco Teórico" color="#8cb6ce" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="294" name="Buscar información que aporte al Estado del Arte" color="#8cb6ce" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="26" name="Corrección de Objetivos Especificos" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="154" name="Mic07. Artefacto RUP Plan de Resolución de Problemas (Gestión del Proyecto)" color="#8cb6ce" meeting="false" start="2009-08-24" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="27" name="semana 6" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="false">
+                        <task id="28" name="Revisión de Metodologia y Cronograma" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="303" name="Definición de metamodelos capa de negocio y modelo matemático" color="#8cb6ce" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="29" name="Finalización Marco Teórico (100%)" meeting="false" start="2009-08-31" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="304" name="Reunión con el Asesor Técnico para evaluar el proyecto. Revisión de las plantillas y Anteproyecto" color="#8cb6ce" meeting="false" start="2009-09-02" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="30" name="semana 7" meeting="false" start="2009-09-07" duration="5" complete="0" priority="1" expand="false">
+                        <task id="31" name="Correccion Metodologia y Cronograma" meeting="false" start="2009-09-07" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="161" name="Mic08. Artefacto RUP Plan de Gestión de Configuración (Gestión de Cambios y Configuración)" color="#8cb6ce" meeting="false" start="2009-09-07" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="305" name="Revisión General de todos los artefactos RUP" color="#8cb6ce" meeting="false" start="2009-09-07" duration="2" complete="0" priority="1" expand="true"/>
+                        <task id="162" name="Valoración del Estado (Gestión del Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-09-07" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="32" name="semana 8" meeting="false" start="2009-09-14" duration="5" complete="0" priority="1" expand="false">
+                        <task id="33" name="Firma de Cartas asesores técnico y metodologico" meeting="false" start="2009-09-14" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="34" name="Mic09. Documento de Anteproyecto" meeting="false" start="2009-09-14" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="306" name="Mic10. Valoración de estado" color="#8cb6ce" meeting="false" start="2009-09-15" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="307" name="Mic11. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2009-09-16" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="35" name="Entrega a Coordinacion Investigacion" meeting="false" start="2009-09-14" duration="5" complete="0" priority="2" expand="true"/>
+                    </task>
+                </task>
+                <task id="309" name="Iteración # 2" color="#8cb6ce" meeting="false" start="2009-10-01" duration="11" complete="0" priority="1" expand="true">
+                    <task id="310" name="Mic01. Corrección Anteproyecto" color="#8cb6ce" meeting="false" start="2009-10-01" duration="11" complete="0" priority="1" expand="true"/>
+                    <task id="311" name="Mic02. Corrección Artefactos RUP" color="#8cb6ce" meeting="false" start="2009-10-01" duration="11" complete="0" priority="1" expand="true"/>
                 </task>
             </task>
-            <task id="36" name="FASE DE ELABORACION " meeting="false" start="2009-09-21" duration="30" complete="0" priority="1" expand="true">
-                <task id="37" name="Plan de Gestion de Requerimientos" meeting="false" start="2009-09-21" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="164" name="Finalización Documento de Visión" color="#8cb6ce" meeting="false" start="2009-09-21" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="38" name="Mic01. Artefacto RUP Requerimientos No Funcionales" meeting="false" start="2009-09-28" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="39" name="Mic02. Artefacto RUP Especificación de requerimientos (Especificación de Casos de Uso y Realización)" meeting="false" start="2009-09-28" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="310" name="•&#9;Crear Modelo de Negocio" color="#8cb6ce" meeting="false" start="2009-10-05" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="311" name="•&#9;Cargar Modelo de Negocio " color="#8cb6ce" meeting="false" start="2009-10-05" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="312" name="•&#9;Transformar Modelo de Negocio" color="#8cb6ce" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="313" name="•&#9;Visualizar Resultados Optimización" color="#8cb6ce" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="314" name="Mic03. Artefacto RUP Plan Maestro de Pruebas" color="#8cb6ce" meeting="false" start="2009-10-19" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="315" name="Mic04. Artefacto RUP Plan de Aseguramiento de la Calidad" color="#8cb6ce" meeting="false" start="2009-10-19" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="316" name="Mic05. Artefacto RUP Arquitectura de Software" color="#8cb6ce" meeting="false" start="2009-10-26" duration="5" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="41" name="FASE DE CONSTRUCCION" meeting="false" start="2010-01-04" duration="78" complete="0" priority="1" expand="true">
-                <task id="165" name="ITERACION 1 Implementación metamodelo de Negocio y Matemático usando EMF de Eclipse, implementación modelo de distribución" color="#8cb6ce" meeting="false" start="2010-01-04" duration="15" complete="0" priority="1" expand="true">
-                    <task id="166" name="Mic01. Definición de conceptos y relaciones de dominio" color="#8cb6ce" meeting="false" start="2010-01-04" duration="11" complete="0" priority="1" expand="true"/>
-                    <task id="177" name="Mic02. Definición metamodelo de negocio (MOF – EMF)" color="#8cb6ce" meeting="false" start="2010-01-04" duration="11" complete="0" priority="1" expand="true"/>
-                    <task id="327" name="Mic03. Definición metamodelo matemático (MOF – EMF)" color="#8cb6ce" meeting="false" start="2010-01-04" duration="11" complete="0" priority="1" expand="true"/>
-                    <task id="333" name="Mic04. Definición modelo matemático de logística de Distribución (MOF – EMF)" meeting="false" start="2010-01-20" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="331" name="Mic05. Documento RUP Plan de Aceptación del Producto" color="#8cb6ce" meeting="false" start="2010-01-20" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="329" name="Mic06. Generación modelo de Dominio (Domain Model – GMF )" color="#8cb6ce" meeting="false" start="2010-01-20" duration="3" complete="0" priority="1" expand="false"/>
+            <task id="300" name="Fase de ELABORACIÓN" color="#8cb6ce" meeting="false" start="2009-09-21" duration="65" complete="0" priority="1" expand="false">
+                <task id="314" name="Iteración # 1" color="#8cb6ce" meeting="false" start="2009-09-21" duration="40" complete="0" priority="1" expand="false">
+                    <task id="36" name="semana 9" meeting="false" start="2009-09-21" duration="5" complete="0" priority="1" expand="false">
+                        <task id="312" name="Mic01. Artefacto RUP Requerimientos No Funcionales (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-09-21" duration="3" complete="0" priority="1" expand="true"/>
+                        <task id="164" name="Inicio Especificación de Requerimientos (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-09-21" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="41" name="semana 10" meeting="false" start="2009-09-28" duration="5" complete="0" priority="1" expand="false">
+                        <task id="165" name="Avance de Especificación de Requerimientos (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-09-28" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="166" name="Inicio Plan Maestro de Pruebas" color="#8cb6ce" meeting="false" start="2009-09-28" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="45" name="semana 11" meeting="false" start="2009-10-05" duration="5" complete="0" priority="1" expand="false">
+                        <task id="167" name="Avance de Plan Maestro de Pruebas (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-10-05" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="168" name="Avance de Especificación de Requerimientos (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-10-05" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="49" name="semana 12" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="false">
+                        <task id="50" name="Mic02. Artefactos RUP Especificación de Requerimientos Funcionales (Requerimientos)" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="170" name="Mic03. Artefacto RUP Plan Maestro de Pruebas (Requerimientos)" color="#8cb6ce" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="169" name="Valoración del Estado (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="51" name="semana 13" meeting="false" start="2009-10-19" duration="5" complete="0" priority="1" expand="false">
+                        <task id="171" name="Inicio Plan de Aseguramiento de la Calidad (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-10-19" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="56" name="semana 14" meeting="false" start="2009-10-26" duration="5" complete="0" priority="1" expand="false">
+                        <task id="172" name="Mic04. Artefacto RUP Plan de Aseguramiento de la Calidad (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-10-26" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="57" name="Mic05. Artefacto RUP Arquitectura de Software (Análisis y Diseño) 50%" meeting="false" start="2009-10-26" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="175" name="Valoración del Estado (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-10-26" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="58" name="semana 15" meeting="false" start="2009-11-02" duration="5" complete="0" priority="1" expand="false">
+                        <task id="60" name="Mic06. Valoración de estado" meeting="false" start="2009-11-02" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="140" name="Carta de Aceptación de Asesorado 2009-2 (Candidatos de Seminario)" color="#8cb6ce" meeting="false" start="2009-11-02" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="64" name="semana 16" color="#8cb6ce" meeting="false" start="2009-11-09" duration="5" complete="0" priority="1" expand="false">
+                        <task id="62" name="Mic07. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2009-11-09" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="180" name="Registro de Revisión (Gestión de Proyecto) Asesor - Estudiante" color="#8cb6ce" meeting="false" start="2009-11-09" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
                 </task>
-                <task id="513" name="ITERACION 2 Documentación Inicial proceso de Graduación" color="#8cb6ce" meeting="false" start="2010-01-25" duration="20" complete="0" priority="1" expand="true">
-                    <task id="515" name="Mic01. Artefacto RUP Plan de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-01-25" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="517" name="Mic02. Artefacto RUP Pruebas de Desarrollador" color="#8cb6ce" meeting="false" start="2010-01-25" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="519" name="Mic03. Artefacto RUP Resultado de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-01-25" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="521" name="Mic04. Artefacto RUP Plan de Despliegue" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
-                    <task id="523" name="Mic05. Artefacto de Desarrollo de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
-                    <task id="525" name="Mic06. Capítulo de Pruebas y Resultados de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
-                </task>
-                <task id="45" name="ITERACION 3 Implementación del modelador y editor gráfico usando GEF Dashboard" meeting="false" start="2010-02-22" duration="18" complete="0" priority="1" expand="true">
-                    <task id="335" name="Mic01. Definición del Graphical Def Model (GMF)" color="#8cb6ce" meeting="false" start="2010-02-22" duration="15" complete="0" priority="1" expand="true"/>
-                    <task id="337" name="Mic02. Definición del Tooling Def Model (GMF)" color="#8cb6ce" meeting="false" start="2010-02-22" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="339" name="Mic03. Definición del Mapping Model (GMF)" color="#8cb6ce" meeting="false" start="2010-03-15" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="341" name="Registro Revisión de Iteración" color="#8cb6ce" meeting="false" start="2010-03-15" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="343" name="Documento Proceso desarrollo de la Iteración" color="#8cb6ce" meeting="false" start="2010-03-15" duration="3" complete="0" priority="1" expand="false"/>
-                </task>
-                <task id="355" name="ITERACION 4 Definición transformaciones de modelo a texto (M2T), implementando herramientas de MDA y/o velocity para generar el código JAVA necesario para hacer integración con la plataforma AMM " meeting="false" start="2010-03-19" duration="12" complete="0" priority="1" expand="true">
-                    <task id="357" name="Mic01. Definición de reglas de transformación entre modelos" color="#8cb6ce" meeting="false" start="2010-03-19" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="359" name="Mic02. Definición de reglas de transformación M2T usando MOFScript" color="#8cb6ce" meeting="false" start="2010-03-19" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="377" name="Mic03. Integración de Transformaciones con plantillas Acceleo" color="#8cb6ce" meeting="false" start="2010-03-19" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="361" name="Realización y evaluación Plan de Pruebas" color="#8cb6ce" meeting="false" start="2010-04-01" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="363" name="Registro Revisión de Iteración" color="#8cb6ce" meeting="false" start="2010-04-01" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="365" name="Documento Proceso desarrollo de la Iteración" color="#8cb6ce" meeting="false" start="2010-04-01" duration="3" complete="0" priority="1" expand="false"/>
-                </task>
-                <task id="391" name="ITERACION 5 Finalización etapa de implementación" meeting="false" start="2010-04-07" duration="11" complete="0" priority="1" expand="true">
-                    <task id="393" name="Mic01. Generación herramienta CASE sobre la plataforma de Eclipse RCP" color="#8cb6ce" meeting="false" start="2010-04-07" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="399" name="Realización y evaluación Plan de Pruebas" color="#8cb6ce" meeting="false" start="2010-04-19" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="401" name="Registro Revisión de Iteración" color="#8cb6ce" meeting="false" start="2010-04-19" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="403" name="Documento Proceso desarrollo de la Iteración" color="#8cb6ce" meeting="false" start="2010-04-19" duration="3" complete="0" priority="1" expand="false"/>
+                <task id="315" name="Iteración # 2" color="#8cb6ce" meeting="false" start="2009-11-16" duration="25" complete="0" priority="1" expand="false">
+                    <task id="182" name=" Mic01. Artefacto RUP Arquitectura de Software (Análisis y Diseño) 100%" color="#8cb6ce" meeting="false" start="2009-11-16" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="67" name=" Mic02. Artefactos RUP Plan de Pruebas por Requerimiento" color="#8cb6ce" meeting="false" start="2009-11-23" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="183" name=" Mic03. Artefacto RUP Plan de Aceptación del Producto (Gestión de Proyecto)" color="#8cb6ce" meeting="false" start="2009-11-23" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="90" name=" Mic04. Construcción Prototipo" color="#8cb6ce" meeting="false" start="2009-12-07" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="185" name="Inicio de Desarrollo según Metdología de Desarrollo Seleccionada" color="#8cb6ce" meeting="false" start="2009-12-07" duration="10" complete="0" priority="1" expand="true"/>
                 </task>
             </task>
-            <task id="463" name="FASE DE TRANSICION" meeting="false" start="2010-02-01" duration="90" complete="0" priority="1" expand="true">
-                <task id="465" name="Redacción introducción y resumen Monografía" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="528" name="Mic01. Artefacto RUP Plan de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="530" name="Mic02. Artefacto RUP Pruebas de Desarrollador" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="467" name="Redacción recomendaciones y trabajo futuro" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="531" name="Mic03. Artefacto RUP Resultado de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="532" name="Mic04. Artefacto RUP Plan de Despliegue" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="533" name="Mic05. Artefacto de Desarrollo de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="534" name="Mic06. Capítulo de Pruebas y Resultados de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="469" name="Manual Técnico" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="471" name="Manual de Usuario" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="473" name="Contrucción Artículo" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
+            <task id="316" name="Fase de CONSTRUCCIÓN" color="#8cb6ce" meeting="false" start="2009-12-14" duration="95" complete="0" priority="1" expand="false">
+                <task id="317" name="Iteración # 1" color="#8cb6ce" meeting="false" start="2009-12-14" duration="15" complete="0" priority="1" expand="false">
+                    <task id="318" name="Mic01. Definición metamodelo de negocio " color="#8cb6ce" meeting="false" start="2009-12-14" duration="4" complete="0" priority="1" expand="true"/>
+                    <task id="319" name="Mic02. Definición modelo matemático de distribución de almacenaje " color="#8cb6ce" meeting="false" start="2009-12-18" duration="3" complete="0" priority="1" expand="true"/>
+                    <task id="320" name="Mic03. Definición metamodelo matemático General" color="#8cb6ce" meeting="false" start="2009-12-18" duration="6" complete="0" priority="1" expand="true"/>
+                    <task id="345" name="Mic04. Plan de Pruebas sobre Mic01, Mic02 y Mic03" color="#8cb6ce" meeting="false" start="2009-12-25" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="356" name="Mic05. Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2009-12-25" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="321" name="Mic06. Ejecución del modelo matemático de distribución escogido en GAMS" color="#8cb6ce" meeting="false" start="2009-12-28" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="322" name="Mic07. Valoración de estado" color="#8cb6ce" meeting="false" start="2010-01-01" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="323" name="Mic08. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-01-01" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="324" name="Iteración # 2" color="#8cb6ce" meeting="false" start="2010-01-01" duration="6" complete="0" priority="1" expand="false">
+                    <task id="325" name="Mic01. Definición Herramientas especificas del dominio" color="#8cb6ce" meeting="false" start="2010-01-01" duration="6" complete="0" priority="1" expand="false">
+                        <task id="331" name="Selección del Domain Model" color="#8cb6ce" meeting="false" start="2010-01-01" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="332" name="Uso del Domain Generator Model" color="#8cb6ce" meeting="false" start="2010-01-04" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="333" name="Definición del Graphical Definition Model " color="#8cb6ce" meeting="false" start="2010-01-04" duration="2" complete="0" priority="1" expand="true"/>
+                        <task id="334" name="Definición del Tooling Definition Model " color="#8cb6ce" meeting="false" start="2010-01-06" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="335" name="Definición del Mapping Model " color="#8cb6ce" meeting="false" start="2010-01-06" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="336" name="Transformación del Diagram Editor Gen Model " color="#8cb6ce" meeting="false" start="2010-01-06" duration="3" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="326" name="Mic02. Plan de Pruebas sobre Mic01" color="#8cb6ce" meeting="false" start="2010-01-08" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="355" name="Mic03. Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2010-01-08" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="327" name="Mic04. Configuración del modelo businessModel.gmfgraph " color="#8cb6ce" meeting="false" start="2010-01-04" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="328" name="Mic05. Valoración de estado" color="#8cb6ce" meeting="false" start="2010-01-04" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="329" name="Mic06. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-01-04" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="338" name="Iteración # 3" color="#8cb6ce" meeting="false" start="2010-01-08" duration="12" complete="0" priority="1" expand="false">
+                    <task id="346" name="Mic01. Definición de reglas de transformación entre modelos" color="#8cb6ce" meeting="false" start="2010-01-08" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="347" name="Mic02. Definición de reglas de transformación M2M usando ATL del modelo de negocio al modelo matemático de distribución" color="#8cb6ce" meeting="false" start="2010-01-08" duration="6" complete="0" priority="1" expand="true"/>
+                    <task id="348" name="Mic03. Definición de reglas de transformación M2M usando ATL del modelo matemático de distribución al modelo matemático estándar" color="#8cb6ce" meeting="false" start="2010-01-12" duration="9" complete="0" priority="1" expand="true"/>
+                    <task id="349" name="Mic04. Plan de Pruebas sobre Mic02 y Mic03" color="#8cb6ce" meeting="false" start="2010-01-18" duration="5" complete="0" priority="1" expand="true"/>
+                    <task id="354" name="Mic05. Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2010-01-25" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="350" name="Mic06. Valoración de estado" color="#8cb6ce" meeting="false" start="2010-01-21" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="351" name="Mic07. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-01-21" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="352" name="Iteración # 4" color="#8cb6ce" meeting="false" start="2010-01-25" duration="15" complete="0" priority="1" expand="false">
+                    <task id="146" name="semana 0" color="#8cb6ce" meeting="false" start="2010-01-25" duration="6" complete="0" priority="1" expand="false">
+                        <task id="91" name="Revisión de Diseño de Pruebas y Aceptación del Producto" color="#8cb6ce" meeting="false" start="2010-01-25" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="92" name="7% de Implantación en Desarrollo" color="#8cb6ce" meeting="false" start="2010-01-25" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="186" name="Registro de Revisión (Gestión de Proyecto) Asesoria - Estudiante" color="#8cb6ce" meeting="false" start="2010-01-25" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="104" name="Mic01. Definición de reglas de transformación de modelo a texto" color="#8cb6ce" meeting="false" start="2010-01-26" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="73" name="semana 1" color="#8cb6ce" meeting="false" start="2010-02-01" duration="5" complete="0" priority="1" expand="false">
+                        <task id="187" name="Mic02. Definición de reglas de transformación M2T usando Acceleo para consumir los métodos expuestos por la plataforma AMM." color="#8cb6ce" meeting="false" start="2010-02-01" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="248" name="Capitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2010-02-01" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="262" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2010-02-01" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="74" name="semana 2" color="#8cb6ce" meeting="false" start="2010-02-08" duration="5" complete="0" priority="1" expand="false">
+                        <task id="105" name="Mic03. Transformaciones M2T con plantillas Velocity para dar soporte a las deficiencias de Acceleo (Opcional)" color="#8cb6ce" meeting="false" start="2010-02-08" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="196" name="Mic04. Plan de Pruebas sobre Mic02 y Mic03" color="#8cb6ce" meeting="false" start="2010-02-08" duration="2" complete="0" priority="1" expand="false"/>
+                        <task id="194" name="Mic05. Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2010-02-08" duration="2" complete="0" priority="1" expand="false"/>
+                        <task id="192" name="Mic06. Valoración de estado" color="#8cb6ce" meeting="false" start="2010-02-10" duration="1" complete="0" priority="1" expand="false"/>
+                        <task id="249" name="Mic07. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-02-10" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                </task>
+                <task id="357" name="Iteración # 5" color="#8cb6ce" meeting="false" start="2010-02-15" duration="15" complete="0" priority="1" expand="true">
+                    <task id="75" name="semana 3" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false">
+                        <task id="106" name="Mic01. Creación componente para obtener los resultados de la plataforma AMM, para su posterior visualización en un archivo pdf" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="251" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="267" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
+                    </task>
+                    <task id="76" name="semana 4" color="#8cb6ce" meeting="false" start="2010-02-22" duration="5" complete="0" priority="1" expand="false">
+                        <task id="202" name="Mic02. Generación herramienta CASE sobre la plataforma de Eclipse RCP con la integración de los motores de transformación y de visualización" color="#8cb6ce" meeting="false" start="2010-02-22" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="269" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2010-02-22" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="253" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2010-02-22" duration="5" complete="0" priority="1" expand="false"/>
+                    </task>
+                    <task id="77" name="semana 5" color="#8cb6ce" meeting="false" start="2010-03-01" duration="5" complete="0" priority="1" expand="false">
+                        <task id="208" name="Mic03. Plan de Pruebas sobre Mic01 y Mic02" color="#8cb6ce" meeting="false" start="2010-03-01" duration="2" complete="0" priority="1" expand="false"/>
+                        <task id="206" name="Mic04. Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2010-03-01" duration="2" complete="0" priority="1" expand="false"/>
+                        <task id="204" name="Mic05. Valoración de estado" color="#8cb6ce" meeting="false" start="2010-03-01" duration="1" complete="0" priority="1" expand="false"/>
+                        <task id="209" name="Mic06. Artefacto RUP Plan de Compilación de Integración (Implementación)" color="#8cb6ce" meeting="false" start="2010-03-01" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="95" name="Mic07. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-03-01" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                </task>
+                <task id="353" name="Iteración # 6" color="#8cb6ce" meeting="false" start="2010-03-08" duration="35" complete="0" priority="1" expand="true">
+                    <task id="78" name="semana 6" color="#8cb6ce" meeting="false" start="2010-03-08" duration="5" complete="0" priority="1" expand="false">
+                        <task id="257" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2010-03-08" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="273" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2010-03-08" duration="5" complete="0" priority="1" expand="false"/>
+                    </task>
+                    <task id="79" name="semana 7" color="#8cb6ce" meeting="false" start="2010-03-15" duration="5" complete="0" priority="1" expand="false">
+                        <task id="259" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2010-03-15" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="275" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2010-03-15" duration="5" complete="0" priority="1" expand="false"/>
+                    </task>
+                    <task id="147" name="semana 8" color="#8cb6ce" meeting="false" start="2010-03-22" duration="5" complete="0" priority="1" expand="false">
+                        <task id="148" name="Mic01. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-03-22" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="261" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2010-03-22" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="277" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2010-03-22" duration="5" complete="0" priority="1" expand="false"/>
+                    </task>
+                    <task id="80" name="semana 9" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="false">
+                        <task id="241" name="Mic02. Valoración de estado" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="239" name="Resultado de Evaluación de Pruebas (Pruebas)" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="237" name="Mic03. Artefacto RUP Plan de Despliegue" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="281" name="Cápitulo de Desarrollo de Monografía" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="279" name="Cápitulo de Pruebas y Resultados" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="false"/>
+                    </task>
+                    <task id="81" name="semana 10" color="#8cb6ce" meeting="false" start="2010-04-12" duration="5" complete="0" priority="1" expand="false">
+                        <task id="285" name="Mic04. Artefacto de Desarrollo de la Monografía" color="#8cb6ce" meeting="false" start="2010-04-12" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="283" name="Mic05. Capitulo de Pruebas y Resultados de la Monografía" color="#8cb6ce" meeting="false" start="2010-04-12" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="120" name="Carta para Sustentación en Colegio " color="#8cb6ce" meeting="false" start="2010-04-12" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="82" name="semana 11" color="#8cb6ce" meeting="false" start="2010-04-19" duration="5" complete="0" priority="1" expand="true">
+                        <task id="134" name="Sustentación a Estudiantes de Seminario de Proyecto de Grado" color="#8cb6ce" meeting="false" start="2010-04-19" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="344" name="Fase de TRANSICIÓN" color="#8cb6ce" meeting="false" start="2010-04-26" duration="35" complete="0" priority="1" expand="false">
+                <task id="340" name="Iteración # 1" color="#8cb6ce" meeting="false" start="2010-04-26" duration="25" complete="0" priority="1" expand="false">
+                    <task id="83" name="semana 12" color="#8cb6ce" meeting="false" start="2010-04-26" duration="5" complete="0" priority="1" expand="true">
+                        <task id="289" name="Mic01. Integración capítulos artefactos Monografía" color="#8cb6ce" meeting="false" start="2010-04-26" duration="5" complete="0" priority="1" expand="false">
+                            <task id="114" name="Construcción de Conclusiones" color="#8cb6ce" meeting="false" start="2010-04-26" duration="5" complete="0" priority="1" expand="true"/>
+                            <task id="116" name="Redacción de Introducción y Resumen" color="#8cb6ce" meeting="false" start="2010-04-26" duration="5" complete="0" priority="1" expand="true"/>
+                        </task>
+                        <task id="117" name="Mic02. Redacción recomendaciones y Trabajo futuro" color="#8cb6ce" meeting="false" start="2010-04-26" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="84" name="semana 13" color="#8cb6ce" meeting="false" start="2010-05-03" duration="5" complete="0" priority="1" expand="true">
+                        <task id="115" name="Mic03.   Manual Técnico" color="#8cb6ce" meeting="false" start="2010-05-03" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="121" name="Sustentación Pública en Colegio" color="#8cb6ce" meeting="false" start="2010-05-03" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="85" name="semana 14" color="#8cb6ce" meeting="false" start="2010-05-10" duration="5" complete="0" priority="1" expand="true">
+                        <task id="118" name="Mic04.   Manual Usuario" color="#8cb6ce" meeting="false" start="2010-05-10" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="86" name="semana 15" color="#8cb6ce" meeting="false" start="2010-05-17" duration="5" complete="0" priority="1" expand="true">
+                        <task id="119" name="Mic05.   Artículo" color="#8cb6ce" meeting="false" start="2010-05-17" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="342" name="Mic06. Valoración de estado" color="#8cb6ce" meeting="false" start="2010-05-18" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="343" name="Mic07. Valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-05-18" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="87" name=" semana 16" color="#8cb6ce" meeting="false" start="2010-05-24" duration="5" complete="0" priority="1" expand="true">
+                        <task id="341" name="Tercera entrega (100% del curso)" color="#8cb6ce" meeting="false" start="2010-05-24" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                </task>
+                <task id="88" name="Iteración # 2" color="#8cb6ce" meeting="false" start="2010-05-31" duration="10" complete="0" priority="1" expand="false">
+                    <task id="339" name="semana 17" color="#8cb6ce" meeting="false" start="2010-05-31" duration="10" complete="0" priority="1" expand="true">
+                        <task id="131" name="Mic01. Construir las diapositivas de presentación del proyecto y Aplicación Final" color="#8cb6ce" meeting="false" start="2010-05-31" duration="5" complete="0" priority="1" expand="true"/>
+                        <task id="149" name="Mic02. Correcciones de documentos y software; según jurado" color="#8cb6ce" meeting="false" start="2010-06-07" duration="5" complete="0" priority="1" expand="true"/>
+                    </task>
+                </task>
             </task>
         </task>
     </tasks>
@@ -187,11 +309,10 @@
         <allocation task-id="4" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="10" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="8" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="13" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="14" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="16" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="17" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="18" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
@@ -199,18 +320,19 @@
         <allocation task-id="22" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="24" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="23" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="9" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="28" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="31" resource-id="10" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="33" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="37" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="38" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="39" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <taskdisplaycolumns>
-        <displaycolumn property-id="tpd3" order="0" width="826"/>
-        <displaycolumn property-id="tpd4" order="1" width="60"/>
-        <displaycolumn property-id="tpd5" order="2" width="60"/>
+        <displaycolumn property-id="tpd3" order="0" width="363"/>
+        <displaycolumn property-id="tpd4" order="1" width="191"/>
+        <displaycolumn property-id="tpd5" order="2" width="190"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
