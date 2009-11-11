@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-02-01" view-index="0" gantt-divider-location="987" resource-divider-location="-1" version="2.0">
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-03-08" view-index="0" gantt-divider-location="765" resource-divider-location="-1" version="2.0">
     <description/>
-    <view zooming-state="default:0" id="gantt-chart"/>
+    <view zooming-state="default:3" id="gantt-chart"/>
     <view id="resource-table">
         <field id="0" name="Nombre" width="55" order="0"/>
         <field id="1" name="Función" width="44" order="1"/>
@@ -31,7 +31,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="1.  Cronograma Proyecto &quot;Herramienta CASE para logística de distribución aplicando MDA&quot;" meeting="false" start="2007-09-07" duration="716" complete="0" priority="1" expand="true">
+        <task id="0" name="1.  Cronograma Proyecto &quot;Herramienta CASE para logística de distribución aplicando MDA&quot;" meeting="false" start="2007-09-07" duration="705" complete="0" priority="1" expand="true">
             <task id="1" name="semanas 0" meeting="false" start="2009-07-20" duration="5" complete="0" priority="1" expand="true">
                 <depend id="3" type="2" difference="0" hardness="Strong"/>
                 <task id="2" name="Investigar Herramientas CASE" meeting="false" start="2009-07-20" duration="1" complete="0" priority="1" expand="true"/>
@@ -101,70 +101,126 @@
                     <depend id="37" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="36" name="FASE DE ELABORACION " meeting="false" start="2009-09-21" duration="30" complete="0" priority="1" expand="true">
-                <task id="37" name="Plan de Gestion de Requerimientos" meeting="false" start="2009-09-21" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="164" name="Finalización Documento de Visión" color="#8cb6ce" meeting="false" start="2009-09-21" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="38" name="Mic01. Artefacto RUP Requerimientos No Funcionales" meeting="false" start="2009-09-28" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="39" name="Mic02. Artefacto RUP Especificación de requerimientos (Especificación de Casos de Uso y Realización)" meeting="false" start="2009-09-28" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="310" name="•&#9;Crear Modelo de Negocio" color="#8cb6ce" meeting="false" start="2009-10-05" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="311" name="•&#9;Cargar Modelo de Negocio " color="#8cb6ce" meeting="false" start="2009-10-05" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="312" name="•&#9;Transformar Modelo de Negocio" color="#8cb6ce" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="313" name="•&#9;Visualizar Resultados Optimización" color="#8cb6ce" meeting="false" start="2009-10-12" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="314" name="Mic03. Artefacto RUP Plan Maestro de Pruebas" color="#8cb6ce" meeting="false" start="2009-10-19" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="315" name="Mic04. Artefacto RUP Plan de Aseguramiento de la Calidad" color="#8cb6ce" meeting="false" start="2009-10-19" duration="5" complete="0" priority="1" expand="true"/>
-                <task id="316" name="Mic05. Artefacto RUP Arquitectura de Software" color="#8cb6ce" meeting="false" start="2009-10-26" duration="5" complete="0" priority="1" expand="true"/>
-            </task>
-            <task id="41" name="FASE DE CONSTRUCCION" meeting="false" start="2010-01-04" duration="78" complete="0" priority="1" expand="true">
-                <task id="165" name="ITERACION 1 Implementación metamodelo de Negocio y Matemático usando EMF de Eclipse, implementación modelo de Logistica de distribución" color="#8cb6ce" meeting="false" start="2010-01-04" duration="15" complete="0" priority="1" expand="false">
-                    <task id="166" name="Mic01. Definición de conceptos y relaciones de dominio" color="#8cb6ce" meeting="false" start="2010-01-04" duration="11" complete="0" priority="1" expand="true"/>
-                    <task id="177" name="Mic02. Definición metamodelo de negocio (MOF – EMF)" color="#8cb6ce" meeting="false" start="2010-01-04" duration="11" complete="0" priority="1" expand="true"/>
-                    <task id="327" name="Mic03. Definición metamodelo matemático (MOF – EMF)" color="#8cb6ce" meeting="false" start="2010-01-04" duration="11" complete="0" priority="1" expand="true"/>
-                    <task id="333" name="Mic04. Definición modelo matemático de logística de Distribución (MOF – EMF)" meeting="false" start="2010-01-20" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="331" name="Mic05. Documento RUP Plan de Aceptación del Producto" color="#8cb6ce" meeting="false" start="2010-01-20" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="329" name="Mic06. Generación modelo de Dominio (Domain Model – GMF )" color="#8cb6ce" meeting="false" start="2010-01-20" duration="3" complete="0" priority="1" expand="false"/>
-                </task>
-                <task id="513" name="ITERACION 2 Documentación Inicial proceso de Graduación" color="#8cb6ce" meeting="false" start="2010-01-25" duration="20" complete="0" priority="1" expand="true">
-                    <task id="515" name="Mic01. Artefacto RUP Plan de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-01-25" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="517" name="Mic02. Artefacto RUP Pruebas de Desarrollador" color="#8cb6ce" meeting="false" start="2010-01-25" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="519" name="Mic03. Artefacto RUP Resultado de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-01-25" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="521" name="Mic04. Artefacto RUP Plan de Despliegue" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
-                    <task id="523" name="Mic05. Artefacto de Desarrollo de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
-                    <task id="525" name="Mic06. Capítulo de Pruebas y Resultados de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-15" duration="5" complete="0" priority="1" expand="false"/>
-                </task>
-                <task id="45" name="ITERACION 3 Implementación del modelador y editor gráfico usando GEF Dashboard" meeting="false" start="2010-02-22" duration="18" complete="0" priority="1" expand="true">
-                    <task id="335" name="Mic01. Definición del Graphical Def Model (GMF)" color="#8cb6ce" meeting="false" start="2010-02-22" duration="15" complete="0" priority="1" expand="true"/>
-                    <task id="337" name="Mic02. Definición del Tooling Def Model (GMF)" color="#8cb6ce" meeting="false" start="2010-02-22" duration="15" complete="0" priority="1" expand="false"/>
-                    <task id="339" name="Mic03. Definición del Mapping Model (GMF)" color="#8cb6ce" meeting="false" start="2010-03-15" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="341" name="Registro Revisión de Iteración" color="#8cb6ce" meeting="false" start="2010-03-15" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="343" name="Documento Proceso desarrollo de la Iteración" color="#8cb6ce" meeting="false" start="2010-03-15" duration="3" complete="0" priority="1" expand="false"/>
-                </task>
-                <task id="355" name="ITERACION 4 Definición transformaciones de modelo a texto (M2T), implementando herramientas de MDA y/o velocity para generar el código JAVA necesario para hacer integración con la plataforma AMM " meeting="false" start="2010-03-19" duration="12" complete="0" priority="1" expand="true">
-                    <task id="357" name="Mic01. Definición de reglas de transformación entre modelos" color="#8cb6ce" meeting="false" start="2010-03-19" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="359" name="Mic02. Definición de reglas de transformación M2T usando MOFScript" color="#8cb6ce" meeting="false" start="2010-03-19" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="377" name="Mic03. Integración de Transformaciones con plantillas Acceleo" color="#8cb6ce" meeting="false" start="2010-03-19" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="361" name="Realización y evaluación Plan de Pruebas" color="#8cb6ce" meeting="false" start="2010-04-01" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="363" name="Registro Revisión de Iteración" color="#8cb6ce" meeting="false" start="2010-04-01" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="365" name="Documento Proceso desarrollo de la Iteración" color="#8cb6ce" meeting="false" start="2010-04-01" duration="3" complete="0" priority="1" expand="false"/>
-                </task>
-                <task id="391" name="ITERACION 5 Finalización etapa de implementación" meeting="false" start="2010-04-07" duration="11" complete="0" priority="1" expand="true">
-                    <task id="393" name="Mic01. Generación herramienta CASE sobre la plataforma de Eclipse RCP" color="#8cb6ce" meeting="false" start="2010-04-07" duration="8" complete="0" priority="1" expand="false"/>
-                    <task id="399" name="Realización y evaluación Plan de Pruebas" color="#8cb6ce" meeting="false" start="2010-04-19" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="401" name="Registro Revisión de Iteración" color="#8cb6ce" meeting="false" start="2010-04-19" duration="3" complete="0" priority="1" expand="false"/>
-                    <task id="403" name="Documento Proceso desarrollo de la Iteración" color="#8cb6ce" meeting="false" start="2010-04-19" duration="3" complete="0" priority="1" expand="false"/>
+            <task id="36" name="FASE DE ELABORACION " meeting="false" start="2009-09-21" duration="32" complete="0" priority="1" expand="true">
+                <task id="547" name="Iteración 1: Diseño y Arquitectura de la Solución - Documentación final Seminario de Grado" color="#8cb6ce" meeting="false" start="2009-09-21" duration="32" complete="0" priority="1" expand="true">
+                    <task id="37" name="Plan de Gestion de Requerimientos" meeting="false" start="2009-09-21" duration="3" complete="0" priority="1" expand="true"/>
+                    <task id="164" name="Finalización Documento de Visión" color="#8cb6ce" meeting="false" start="2009-10-16" duration="3" complete="0" priority="1" expand="true"/>
+                    <task id="38" name="Mic01. Artefacto RUP Requerimientos No Funcionales" meeting="false" start="2009-10-21" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="548" name="Mic02 Especificación y realización de casos de Uso" color="#8cb6ce" meeting="false" start="2009-10-26" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="549" name="Mic03 Definición arquitectura del negocio" color="#8cb6ce" meeting="false" start="2009-10-28" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="39" name="Mic04 Artefacto RUP Especificación de requerimientos (Especificación de Casos de Uso y Realización)" meeting="false" start="2009-10-29" duration="3" complete="0" priority="1" expand="true">
+                        <task id="310" name="•&#9;Crear Modelo de Negocio" color="#8cb6ce" meeting="false" start="2009-10-29" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="311" name="•&#9;Cargar Modelo de Negocio" color="#8cb6ce" meeting="false" start="2009-10-29" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="312" name="•&#9;Transformar Modelo de Negocio" color="#8cb6ce" meeting="false" start="2009-10-30" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="313" name="•&#9;Visualizar Resultados Optimización" color="#8cb6ce" meeting="false" start="2009-11-02" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="314" name="Mic05. Artefacto RUP Plan Maestro de Pruebas" color="#8cb6ce" meeting="false" start="2009-10-30" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="315" name="Mic06. Artefacto RUP Plan de Aseguramiento de la Calidad" color="#8cb6ce" meeting="false" start="2009-11-03" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="316" name="Mic07. Artefacto RUP Arquitectura de Software" color="#8cb6ce" meeting="false" start="2009-10-30" duration="3" complete="0" priority="1" expand="true"/>
                 </task>
             </task>
-            <task id="463" name="FASE DE TRANSICION" meeting="false" start="2010-02-01" duration="90" complete="0" priority="1" expand="true">
-                <task id="465" name="Redacción introducción y resumen Monografía" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="528" name="Mic01. Artefacto RUP Plan de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="530" name="Mic02. Artefacto RUP Pruebas de Desarrollador" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="467" name="Redacción recomendaciones y trabajo futuro" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="531" name="Mic03. Artefacto RUP Resultado de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="532" name="Mic04. Artefacto RUP Plan de Despliegue" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="533" name="Mic05. Artefacto de Desarrollo de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="534" name="Mic06. Capítulo de Pruebas y Resultados de la Monografía" color="#8cb6ce" meeting="false" start="2010-02-01" duration="1" complete="0" priority="1" expand="true"/>
-                <task id="469" name="Manual Técnico" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="471" name="Manual de Usuario" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
-                <task id="473" name="Contrucción Artículo" color="#8cb6ce" meeting="false" start="2010-05-10" duration="20" complete="0" priority="1" expand="false"/>
+            <task id="41" name="FASE DE CONSTRUCCION" meeting="false" start="2009-11-30" duration="116" complete="0" priority="1" expand="true">
+                <task id="165" name="Iteración 1: Ejecución modelo matemático, ejecución en GAMS" color="#8cb6ce" meeting="false" start="2009-11-30" duration="11" complete="0" priority="1" expand="true">
+                    <task id="166" name="Mic01. Ejecutar modelo (DEMO) de VRP en GAMS." color="#8cb6ce" meeting="false" start="2009-11-30" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="177" name="Mic02.Definir Índices, Conjuntos, Parámetros, Variables, restricciones." color="#8cb6ce" meeting="false" start="2009-12-03" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="327" name="Mic03. Ejecutar modelo de MDVRP en GAMS" color="#8cb6ce" meeting="false" start="2009-12-07" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="333" name="Mic04. Definir la cantidad máxima componentes en las cuales el modelo entrega resultados óptimos" meeting="false" start="2009-12-09" duration="2" complete="0" priority="1" expand="false"/>
+                    <task id="331" name="Mic05. Establecer componentes parametrizables desde el modelo de la lógica de negocio." color="#8cb6ce" meeting="false" start="2009-12-11" duration="2" complete="0" priority="1" expand="false"/>
+                    <task id="329" name="Mic06. Definir componentes fijos parametrizables y no parametrizables en modelo." color="#8cb6ce" meeting="false" start="2009-12-14" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="550" name="Mic07. Valoración plan de pruebas" color="#8cb6ce" meeting="false" start="2009-12-14" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="551" name="Mic08. Valoración de estado, valoración de riesgos" color="#8cb6ce" meeting="false" start="2009-12-14" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="513" name="Iteración 2: Modelar y diseñar metamodelo de Negocio usando EMF y GMF de Eclipse, implementación modelo de logística de  distribución." color="#8cb6ce" meeting="false" start="2009-12-15" duration="9" complete="0" priority="1" expand="true">
+                    <task id="515" name="Mic01. Definición de conceptos y relaciones de dominio" color="#8cb6ce" meeting="false" start="2009-12-15" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="517" name="Mic02. Definición metamodelo de negocio (EMF)" color="#8cb6ce" meeting="false" start="2009-12-16" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="519" name="Mic02. Definición metamodelo de negocio (EMF)" color="#8cb6ce" meeting="false" start="2009-12-17" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="521" name="Mic03. Elaboración metamodelo por medio de modalidad ecore_diagram(Clases, Atributos, Relaciones, restricciones) " meeting="false" start="2009-12-18" duration="1" complete="0" priority="1" expand="true">
+                        <task id="523" name="•&#9;.ecore" color="#8cb6ce" meeting="false" start="2009-12-18" duration="1" complete="0" priority="1" expand="false"/>
+                        <task id="525" name="•&#9;.ecore_diagram" color="#8cb6ce" meeting="false" start="2009-12-18" duration="1" complete="0" priority="1" expand="false"/>
+                    </task>
+                    <task id="552" name="Mic04. Utilización de GMF Dashboard estableciendo Nodos, relaciones, tipo de atributos, mapeos, iconografía, para generación de código automático (.edit, .diagram) " color="#8cb6ce" meeting="false" start="2009-12-21" duration="1" complete="0" priority="1" expand="true">
+                        <task id="553" name="•&#9;Domain Generator Model - GMF (para generar código java del modelo de negocio con extensión .edit), como  entregable se tiene un MDVRP1.genmodel" color="#8cb6ce" meeting="false" start="2009-12-21" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="554" name="•&#9;Graphical Definition Model – GMF (para especificar las primitivas a implementar, definir clases, relaciones y atributos) como entregable se tiene un MDVRP1.gmfgraph" color="#8cb6ce" meeting="false" start="2009-12-21" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="555" name="•&#9;Tooling Definition Model – GMF (para especificar las herramientas que saldrán en la paleta y su comportamiento, definir clases  y relaciones) como entregable se tiene un MDVRP1.gmftool" color="#8cb6ce" meeting="false" start="2009-12-21" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="556" name="•&#9;Mapping Model - GMF) para mapear todas las definiciones construidas anteriormente (*.ecore, *.gmfgraph, *.gmftool) como entregable se tiene un MDVRP1.gmfmap" color="#8cb6ce" meeting="false" start="2009-12-21" duration="1" complete="0" priority="1" expand="true"/>
+                        <task id="557" name="•&#9;Diagram Editor Gen Model (para, transformar los modelos y mapeos en un Gen Model) como entregable se tiene un MDVRP1.gmfgen" color="#8cb6ce" meeting="false" start="2009-12-21" duration="1" complete="0" priority="1" expand="true"/>
+                    </task>
+                    <task id="558" name="Mic05. Configuración de herramienta para agregar iconografía relacionada con la lógica del negocio" color="#8cb6ce" meeting="false" start="2009-12-23" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="559" name="Mic06. Pruebas de modelo de lógica de negocio (relaciones nodos, atributos, estructurar de archivo XMI )" color="#8cb6ce" meeting="false" start="2009-12-25" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="560" name="Mic07. Valoración de estado, valoración de riesgos" color="#8cb6ce" meeting="false" start="2009-12-25" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="45" name="Iteración 3: Documentación Inicial proceso de Graduación" meeting="false" start="2009-12-28" duration="10" complete="0" priority="1" expand="true">
+                    <task id="335" name="Mic01. Artefacto RUP Plan de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2009-12-28" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="337" name="Mic02. Artefacto RUP Pruebas de Desarrollador" color="#8cb6ce" meeting="false" start="2009-12-31" duration="2" complete="0" priority="1" expand="false"/>
+                    <task id="339" name="Mic03. Artefacto RUP Resultado de Evaluación Pruebas" color="#8cb6ce" meeting="false" start="2010-01-04" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="341" name="Mic04. Artefacto RUP Plan de Despliegue" color="#8cb6ce" meeting="false" start="2010-01-04" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="343" name="Mic05. Artefacto de Desarrollo de la Monografía" color="#8cb6ce" meeting="false" start="2010-01-05" duration="3" complete="0" priority="1" expand="false"/>
+                    <task id="561" name="Mic06. Capítulo de Pruebas y Resultados de la Monografía" color="#8cb6ce" meeting="false" start="2010-01-08" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="355" name="Iteración 4: Modelar y diseñar metamodelo intermedio." meeting="false" start="2010-01-11" duration="20" complete="0" priority="1" expand="true">
+                    <task id="357" name="Mic01. Definición de conceptos y relaciones" color="#8cb6ce" meeting="false" start="2010-01-11" duration="3" complete="0" priority="1" expand="false"/>
+                    <task id="359" name="Mic02. Elaboración metamodelo intermedio (.ecore)" color="#8cb6ce" meeting="false" start="2010-01-15" duration="7" complete="0" priority="1" expand="false"/>
+                    <task id="377" name="Mic03. Elaboración metamodelo por medio de modalidad ecore_diagram(Clases, Atributos, Relaciones, restricciones) " color="#8cb6ce" meeting="false" start="2010-01-27" duration="8" complete="0" priority="1" expand="true">
+                        <task id="361" name="•&#9;.ecore" color="#8cb6ce" meeting="false" start="2010-01-27" duration="5" complete="0" priority="1" expand="false"/>
+                        <task id="363" name="•&#9;.ecore_diagram" color="#8cb6ce" meeting="false" start="2010-02-04" duration="2" complete="0" priority="1" expand="false"/>
+                    </task>
+                </task>
+                <task id="391" name="Iteración 5:  Modelar y diseñar transformaciones de modelo de la lógica de negocio a modelo general (M2M), implementando herramienta ATL " meeting="false" start="2010-02-10" duration="8" complete="0" priority="1" expand="true">
+                    <task id="393" name="Mic01. Crear proyecto con metamodelo de lógica de negocio y metamodelo intermedio (general)" color="#8cb6ce" meeting="false" start="2010-02-10" duration="2" complete="0" priority="1" expand="false"/>
+                    <task id="399" name="Mic02. Agregar XMI generado por implementación de metamodelo de la lógica del negocio." color="#8cb6ce" meeting="false" start="2010-02-15" duration="2" complete="0" priority="1" expand="false"/>
+                    <task id="401" name="Mic03. Crear reglas de transformación entre modelo origen y modelo destino" color="#8cb6ce" meeting="false" start="2010-02-17" duration="2" complete="0" priority="1" expand="false"/>
+                    <task id="403" name="Mic04. Generación de archivo XMI destino" color="#8cb6ce" meeting="false" start="2010-02-19" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="562" name="Mic05. Pruebas de transformación, generación archivo XMI" color="#8cb6ce" meeting="false" start="2010-02-19" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="563" name="Mic06. Valoración de estado, valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-02-19" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="564" name="Iteración 6: Modelar y diseñar metamodelo matemático." color="#8cb6ce" meeting="false" start="2010-02-22" duration="6" complete="0" priority="1" expand="true">
+                    <task id="565" name="Mic01. Definición de conceptos y relaciones" color="#8cb6ce" meeting="false" start="2010-02-22" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="566" name="Mic02. Elaboración metamodelo matemático (.ecore)" color="#8cb6ce" meeting="false" start="2010-02-25" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="567" name="Mic03. Elaboración metamodelo por medio de modalidad ecore_diagram(Clases, Atributos, Relaciones, restricciones) " color="#8cb6ce" meeting="false" start="2010-02-26" duration="2" complete="0" priority="1" expand="true">
+                        <task id="568" name="•&#9;.ecore" color="#8cb6ce" meeting="false" start="2010-02-26" duration="2" complete="0" priority="1" expand="true"/>
+                        <task id="569" name="•&#9;.ecore_diagram" color="#8cb6ce" meeting="false" start="2010-02-26" duration="2" complete="0" priority="1" expand="true"/>
+                    </task>
+                </task>
+                <task id="570" name="Iteración 7:  Modelar y diseñar transformaciones de modelo general a modelo matemático(M2M), implementando herramienta ATL" color="#8cb6ce" meeting="false" start="2010-03-01" duration="16" complete="0" priority="1" expand="true">
+                    <task id="571" name="Mic01. Crear proyecto con metamodelo intermedio (general) y metamodelo matemático." color="#8cb6ce" meeting="false" start="2010-03-01" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="572" name="Mic02. Agregar XMI generado por implementación de metamodelo de la lógica del negocio." color="#8cb6ce" meeting="false" start="2010-03-03" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="573" name="Mic03. Crear reglas de transformación entre modelo origen y modelo destino" color="#8cb6ce" meeting="false" start="2010-03-08" duration="3" complete="0" priority="1" expand="true"/>
+                    <task id="574" name="Mic04. Generación de archivo XMI destino, evaluar estructura y contenido." color="#8cb6ce" meeting="false" start="2010-03-12" duration="3" complete="0" priority="1" expand="true"/>
+                    <task id="575" name="Mic05. Pruebas de transformación, generación archivo XMI, evaluar proceso completo de transformaciones desde la iteración 2, 4, 5, 6 de la fase de construcción." color="#8cb6ce" meeting="false" start="2010-03-18" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="576" name="Mic06. Valoración de estado, valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-03-22" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="577" name="Iteración 8:  Definición transformaciones de modelo a texto (M2T), implementando herramientas Acceleo para generar el código JAVA necesario para hacer integración con la plataforma AMM" color="#8cb6ce" meeting="false" start="2010-03-23" duration="6" complete="0" priority="1" expand="true">
+                    <task id="578" name="Mic01. Definición de reglas de transformación entre modelos" color="#8cb6ce" meeting="false" start="2010-03-23" duration="3" complete="0" priority="1" expand="true"/>
+                    <task id="579" name="Mic02. Consumir modelo matemático de archivo XMI para hacer transformaciones M2T" color="#8cb6ce" meeting="false" start="2010-03-26" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="580" name="Mic03. Diseñar e implementar plantillas de transformación." color="#8cb6ce" meeting="false" start="2010-03-29" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="581" name="Mic04. Realizar transformación y generación de clases java para consumir plataforma AMM." color="#8cb6ce" meeting="false" start="2010-03-29" duration="2" complete="0" priority="1" expand="true"/>
+                    <task id="582" name="Mic05. Pruebas de transformación M2T generación de clases, ejecución de las mismas" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="583" name="Mic06. Valoración de estado, valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="586" name="Iteración 9: Consumir plataforma AMM y mostrar resultados de la ejecución." color="#8cb6ce" meeting="false" start="2010-04-01" duration="28" complete="0" priority="1" expand="true">
+                    <task id="587" name="Mic01. Integración con plataforma AMM estableciendo metodología y secuenciación." color="#8cb6ce" meeting="false" start="2010-04-01" duration="8" complete="0" priority="1" expand="true"/>
+                    <task id="588" name="Mic02. Ejecutar clases resultado de transformaciones M2T y consumir métodos de plataformas AMM entregar resultados y tipo de archivo resultado" color="#8cb6ce" meeting="false" start="2010-04-14" duration="8" complete="0" priority="1" expand="true"/>
+                    <task id="589" name="Mic03. Diseñar y modelar artefacto de interpretación y visualización de datos resultado." color="#8cb6ce" meeting="false" start="2010-04-26" duration="10" complete="0" priority="1" expand="true"/>
+                    <task id="590" name="Mic04. Plan de pruebas integrales" color="#8cb6ce" meeting="false" start="2010-05-10" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="591" name="Mic05. Valoración de estado, valoración de riesgos" color="#8cb6ce" meeting="false" start="2010-05-10" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+            </task>
+            <task id="463" name="FASE DE TRANSICION" meeting="false" start="2010-05-12" duration="7" complete="0" priority="1" expand="true">
+                <task id="465" name="Iteración 1: Redacción de manuales y capacitaciones." color="#8cb6ce" meeting="false" start="2010-05-12" duration="4" complete="0" priority="1" expand="true">
+                    <task id="528" name="Mic01. Redacción introducción y resumen de monografía." color="#8cb6ce" meeting="false" start="2010-05-12" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="530" name="Mic02. Dejar constancia de futuras integraciones de módulos y funcionalidad del proyecto." color="#8cb6ce" meeting="false" start="2010-05-13" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="467" name="Mic03. Elaboración manual de usuario" color="#8cb6ce" meeting="false" start="2010-05-13" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="531" name="Mic04. Elaboración manual técnico" color="#8cb6ce" meeting="false" start="2010-05-14" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="532" name="Mic05. Capacitación a usuario final." color="#8cb6ce" meeting="false" start="2010-05-14" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="533" name="Mic06. Redacción articulo." color="#8cb6ce" meeting="false" start="2010-05-17" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+                <task id="534" name="Iteración 2: Despliegue, Soporte y Finalización" color="#8cb6ce" meeting="false" start="2010-05-18" duration="3" complete="0" priority="1" expand="true">
+                    <task id="469" name="Mic01. Artefacto RUP Plan de Evaluación Pruebas V Final" color="#8cb6ce" meeting="false" start="2010-05-18" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="471" name="Mic02. Artefacto RUP Resultado de Evaluación Pruebas V Final" color="#8cb6ce" meeting="false" start="2010-05-19" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="473" name="Mic03. Artefacto RUP Plan de Despliegue" color="#8cb6ce" meeting="false" start="2010-05-19" duration="1" complete="0" priority="1" expand="false"/>
+                    <task id="584" name="Mic04. Artefacto de Desarrollo de la Monografía" color="#8cb6ce" meeting="false" start="2010-05-20" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="585" name="Mic05. Capítulo de Pruebas y Resultados de la Monografía" color="#8cb6ce" meeting="false" start="2010-05-20" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
             </task>
         </task>
     </tasks>
