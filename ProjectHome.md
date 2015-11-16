@@ -1,0 +1,1 @@
+Este proyecto hace parte del Ambiente de formulación y ejecución de modelos matemáticos de optimización
